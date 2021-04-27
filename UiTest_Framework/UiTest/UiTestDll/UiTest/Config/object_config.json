@@ -1,0 +1,94 @@
+{
+	"bunker_lobby": {
+		"door_lobby_1": [-6, 0, 1],
+		"door_lobby_2": [-1, 0, 6],
+		"door_lobby_3": [8.8, 0, 6.4],
+		"door_lobby_terminal": [-6.9, 0, 9.5],
+		"door_lobby_engineer": [5.5, 0, -5],
+		"door_lobby_shower": [-4.4, 0, -7.5],
+		"lobby_shower": [-2.8, 0, -12],
+		"hard_mode_terminal": [10, 0, -4],
+		"engineer": [12.39, 0, -5.56],
+		"floppy_disk__terminal": [12, 0, -3.5],
+		"waepon_mod_table": [10, 0, -4]
+	},
+	"bunker_level_0": {
+		"door_level_0_1": [0, 0, 5.5],
+		"door_level_0_2": [0, 0, 11.5],
+		"door_level_0_3": [0, 0, 29.5],
+		"door_level_0_4": [5.5, 0, 34.7],
+		"door_level_0_5": [2.8, 0, 39.5],
+		"door_level_0_6": [-16.5, 0, 36.4],
+		"door_level_0_7": [-26.8, 0, 36.4],
+		"door_level_0_8": [-18.9, 0, 39.5],
+		"door_level_0_9": [-27.1, 0, 39.5],
+		"door_level_0_10": [-34.9, 0, 36.4],
+		"door_level_0_11": [-35, 0, 39.5],
+		"door_level_0_12": [-37.5, 0, 42],
+		"door_level_0_13": [-31.28, 0, 23.3],
+		"door_level_0_14": [-26.81, 0, 19.8],
+		"door_level_0_15": [-20.5, 0, 19.9],
+		"door_level_0_16": [-17.6, 0, 16.4],
+		"door_level_0_17": [-17.0, 0, 0.4],
+		"door_level_0_18": [-14.4, 0, -5.09],
+		"door_level_0_19": [-13.19, 0, 3.59],
+		"door_level_0_20": [-40.07, 0, 3.59],
+		"door_level_0_21": [-40.07, 0, 0.41],
+		"door_level_0_22": [-38.4, 0, -7.03],
+		"door_level_0_23": [-39.69, 0, 16.5],
+		"valve": [-42.9, 0, 38.8],
+		"weapon_mod_table": [-19.3, 0, -1.44],
+		"chest_turret": [-45.4, 0, 18.8],
+		"terminal": [-11.7, 0, -1.0],
+		"engineer": [-13.06, 0, -5.24],
+		"lift": [-4.0, 0.0, 5.0]
+	},
+	"bunker_alfa": {
+		"code_terminal": [3, 0.225, 3.4],
+		"bunker_door_card": [-1, 0.11, -6]
+	},
+	"sync_entrance": {
+		"terminal_collection": [-6.8, 0.01, -4.6],
+		"sync_chest": [-3.53, 0.01, -7.08],
+		"terminal_to_sync": [-3.13, 0.01, -4.28]
+	},
+	"sync_home": {
+		"npc_quest": [0.79, 0, -5.44],
+		"npc_inventory": [10, 0.01, -10.7],
+		"terminal_location": [7.25, 0, -1.43]
+	},
+	"raid_smoke": {
+		"wall_1": [-18, 0, 5],
+		"bonfire": [-17, 0, -3],
+		"chest_4": [-17, 0.2, 7],
+		"chest_4_use": [-16, 0.2, 6],
+		"wall_2": [-15, 0, 4],
+		"chest_8": [-13, 0.2, 3],
+		"chest_8_use": [-14, 0.2, 2],
+		"wall_3": [-13, 0, 0],
+		"chest_military": [-9, 0.2, -1],
+		"chest_military_use": [-8, 0.2, 0],
+		"wall_4": [-10, 0, -1],
+		"chest_16": [-13, 0.2, -3],
+		"chest_16_use": [-12, 0.2, -2]
+	},
+	"motel": {
+		"door_1": [-9.18, 0, -2.34],
+		"balon": [-4.68, 0, -5.04],
+		"balon_use": [-4.44, 0, 1.24],
+		"bar": [-4.76, 0, 9.24],
+		"gas": [-4.83, 0.01, -4.88],
+		"place": [-4.66, 0, 1.63],
+		"backPoint": [-9.28, 0.02, 1.96],
+		"weeperPoint": [3.80, 0.01, -3.54]
+	},
+	"bunker_bravo": {
+		"bunker_door_card": [-0.27, 0.11, -4.71]
+	},
+	"tower_01": {
+		"watchtower_gate": [0.13, 0.11, -4.47]
+	},
+	"police_station": {
+		"terminal": [4.43, 0, 13.88]
+	}
+}

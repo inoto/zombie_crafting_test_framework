@@ -1,0 +1,932 @@
+{
+	"scenes": {
+		"inventory": {
+			"buttons": {
+				"use": {
+					"cord": [138.5254, 61.51462],
+					"camera": "canvas"
+				},
+				"split": {
+					"cord": [313.6816, 61.51462],
+					"camera": "canvas"
+				},
+				"delete": {
+					"cord": [542.2004, 61.51462],
+					"camera": "canvas"
+				},
+				"take_all": {
+					"cord": [721.5796, 57.67558],
+					"camera": "canvas"
+				},
+				"combine": {
+					"cord": [888.5779, 57.67558],
+					"camera": "canvas"
+				},
+				"close": {
+					"cord": [1230, 360],
+					"camera": "canvas"
+				},
+				"bunker_open": {
+					"cord": [888.5779, 58.3074],
+					"camera": "canvas"
+				},
+				"confirim_delete": {
+					"cord": [844.6208, 294.3524],
+					"camera": "canvas"
+				},
+				"confirim_сancel": {
+					"cord": [686.3564, 294.3524],
+					"camera": "canvas"
+				}
+			},
+			"cells": {
+				"loot": {
+					"start": [685.1088, 582.6644],
+					"size": [5, 75],
+					"delta": [101.7346, -99.81506]
+				},
+				"backpack": {
+					"start": [119.81, 366.7183],
+					"size": [5, 15],
+					"delta": [101.7346, -101.7346]
+				},
+				"pockets": {
+					"start": [119.81, 585.5436],
+					"size": [5, 10],
+					"delta": [101.7346, -101.7346]
+				}
+			},
+			"active_button": {}
+		},
+		"battle": {
+			"buttons": {
+				"bunker_button_0": {
+					"cord": [516.1909, 291.8571],
+					"camera": "canvas"
+				},
+				"bunker_button_1": {
+					"cord": [347.2732, 376.3159],
+					"camera": "canvas"
+				},
+				"bunker_button_2": {
+					"cord": [431.7321, 376.3159],
+					"camera": "canvas"
+				},
+				"bunker_button_3": {
+					"cord": [516.1909, 376.3159],
+					"camera": "canvas"
+				},
+				"bunker_button_4": {
+					"cord": [600.6498, 376.3159],
+					"camera": "canvas"
+				},
+				"bunker_button_5": {
+					"cord": [685.1087, 376.3159],
+					"camera": "canvas"
+				},
+				"bunker_button_6": {
+					"cord": [769.5676, 376.3159],
+					"camera": "canvas"
+				},
+				"bunker_button_7": {
+					"cord": [854.0265, 376.3159],
+					"camera": "canvas"
+				},
+				"bunker_button_8": {
+					"cord": [347.2732, 291.8571],
+					"camera": "canvas"
+				},
+				"bunker_button_9": {
+					"cord": [431.7321, 291.8571],
+					"camera": "canvas"
+				},
+				"use": {
+					"cord": [1077.955, 86.29279],
+					"camera": "canvas"
+				},
+				"auto": {
+					"cord": [42.36816, 42.36812],
+					"camera": "canvas"
+				},
+				"stelth": {
+					"cord": [1237.632, 42.36812],
+					"camera": "canvas"
+				},
+				"attack": {
+					"cord": [1182.207, 188.0102],
+					"camera": "canvas"
+				},
+				"inventory": {
+					"cord": [976.8083, 54.04024],
+					"camera": "canvas"
+				},
+				"store": {
+					"cord": [784.4539, 54.04024],
+					"camera": "canvas"
+				},
+				"blueprints": {
+					"cord": [876.2347, 54.04024],
+					"camera": "canvas"
+				},
+				"builder": {
+					"cord": [1193.707, 414.8819],
+					"camera": "canvas"
+				},
+				"second_slot": {
+					"cord": [1201.207, 306.2559],
+					"camera": "canvas"
+				},
+				"third_slot": {
+					"cord": [1106.392, 283.9802],
+					"camera": "canvas"
+				},
+				"revive": {
+					"cord": [640, 205.6456],
+					"camera": "canvas"
+				},
+				"terminal_bunker_confirim": {
+					"cord": [762.5377, 164.4564],
+					"camera": "canvas"
+				},
+				"special_offer_buy": {
+					"cord": [863.6432, 298.2888],
+					"camera": "canvas"
+				},
+				"special_offer_close": {
+					"cord": [679.379, 297.809],
+					"camera": "canvas"
+				},
+				"horde_ok": {
+					"cord": [830.0325, 254.9063],
+					"camera": "canvas"
+				},
+				"code_corpse_ok": {
+					"cord": [830.0325, 254.9063],
+					"camera": "canvas"
+				}
+			},
+			"cells": {},
+			"active_button": {}
+		},
+		"builder": {
+			"buttons": {
+				"build_cancel": {
+					"cord": [899.1352, 469.4127],
+					"camera": "canvas"
+				},
+				"destroy": {
+					"cord": [1114.121, 469.4127],
+					"camera": "canvas"
+				},
+				"build_ok": {
+					"cord": [1599.76, 469.4127],
+					"camera": "canvas"
+				},
+				"destroy_confirim": {
+					"cord": [844.6208, 294.3524],
+					"camera": "canvas"
+				},
+				"build_cathegory": {
+					"cord": [144.2697, 205.3886],
+					"camera": "canvas"
+				},
+				"inventory_cathegory": {
+					"cord": [341.4803, 205.3886],
+					"camera": "canvas"
+				},
+				"close": {
+					"cord": [1161.5, 205.3886],
+					"camera": "canvas"
+				}
+			},
+			"cells": {
+				"build_item": {
+					"start": [86.3784, 86.3784],
+					"size": [1, 8],
+					"delta": [0, 0]
+				},
+				"inventory_item": {
+					"start": [86.3784, 86.3784],
+					"size": [1, 25],
+					"delta": [0, 0]
+				}
+			},
+			"active_button": {}
+		},
+		"craft": {
+			"buttons": {
+				"craft": {
+					"cord": [756.7709, 86.38676],
+					"camera": "canvas"
+				},
+				"learn": {
+					"cord": [756.7709, 86.38676],
+					"camera": "canvas"
+				},
+				"learn_ok": {
+					"cord": [831.952, 183.884],
+					"camera": "canvas"
+				},
+				"close": {
+					"cord": [1230, 360],
+					"camera": "canvas"
+				}
+			},
+			"cells": {
+				"resipes": {
+					"start": [-69.08859, 528.1691],
+					"size": [5, 120],
+					"delta": [138.2054, -157.4006]
+				}
+			},
+			"active_button": {}
+		},
+		"shop": {
+			"buttons": {
+				"small_dialog_buy": {
+					"cord": [720.7158, 184.5079],
+					"camera": "canvas"
+				},
+				"small_dialog_close": {
+					"cord": [510.8163, 184.5079],
+					"camera": "canvas"
+				},
+				"dota_gacha_dialog_buy": {
+					"cord": [516.4078, 78.70033],
+					"camera": "canvas"
+				},
+				"dota_gacha_dialog_close": {
+					"cord": [1230.441, 360],
+					"camera": "canvas"
+				},
+				"dota_gacha_dialog_open": {
+					"cord": [765.3985, 77.49311],
+					"camera": "canvas"
+				},
+				"dota_gacha_buy_dialog_buy_1": {
+					"cord": [806.5424, 391.6793],
+					"camera": "canvas"
+				},
+				"dota_gacha_buy_dialog_buy_2": {
+					"cord": [806.5424, 307.2684],
+					"camera": "canvas"
+				},
+				"dota_gacha_buy_dialog_buy_3": {
+					"cord": [806.5424, 222.4256],
+					"camera": "canvas"
+				},
+				"dota_gacha_buy_dialog_close": {
+					"cord": [888.098, 532.2289],
+					"camera": "canvas"
+				},
+				"ok": {
+					"cord": [778.2054, 218.4354],
+					"camera": "canvas"
+				},
+				"exp_dialog_buy": {
+					"cord": [803.3959, 225.0198],
+					"camera": "canvas"
+				},
+				"exp_dialog_close": {
+					"cord": [594.4988, 225.0198],
+					"camera": "canvas"
+				},
+				"exp_dialog_ok": {
+					"cord": [773.4354, 302.3487],
+					"camera": "canvas"
+				},
+				"standart_dialog_buy": {
+					"cord": [826.1791, 146.487],
+					"camera": "canvas"
+				},
+				"standart_dialog_close": {
+					"cord": [617.2297, 146.487],
+					"camera": "canvas"
+				},
+				"pets_dialog_buy": {
+					"cord": [846.3052, 210.7632],
+					"camera": "canvas"
+				},
+				"pets_dialog_close": {
+					"cord": [380.7256, 211.435],
+					"camera": "canvas"
+				},
+				"pass_dialog_buy": {
+					"cord": [277.7051, 63.44398],
+					"camera": "canvas"
+				},
+				"pass_dialog_skip": {
+					"cord": [277.7051, 63.44398],
+					"camera": "canvas"
+				},
+				"pass_dialog_close": {
+					"cord": [1230, 360],
+					"camera": "canvas"
+				},
+				"pass_dialog_quest": {
+					"cord": [427.8116, 346.7493],
+					"camera": "canvas"
+				},
+				"quest_list_dialog_next": {
+					"cord": [418.4958, 111.95],
+					"camera": "canvas"
+				},
+				"quest_list_dialog_prevous": {
+					"cord": [251.3103, 112.9098],
+					"camera": "canvas"
+				},
+				"quest_list_dialog_close": {
+					"cord": [1049.218, 646.8757],
+					"camera": "canvas"
+				},
+				"coins": {
+					"cord": [103.1742, 692.0139],
+					"camera": "canvas"
+				},
+				"best": {
+					"cord": [107.973, 680.6096],
+					"camera": "canvas"
+				},
+				"build": {
+					"cord": [107.973, 600.9495],
+					"camera": "canvas"
+				},
+				"pets": {
+					"cord": [107.973, 521.2894],
+					"camera": "canvas"
+				},
+				"transport": {
+					"cord": [107.973, 441.6293],
+					"camera": "canvas"
+				},
+				"equip": {
+					"cord": [107.973, 361.9692],
+					"camera": "canvas"
+				},
+				"exp": {
+					"cord": [107.973, 282.3091],
+					"camera": "canvas"
+				},
+				"money": {
+					"cord": [107.973, 202.649],
+					"camera": "canvas"
+				},
+				"inbox": {
+					"cord": [107.973, 38.3899],
+					"camera": "canvas"
+				},
+				"close": {
+					"cord": [1230, 360],
+					"camera": "canvas"
+				}
+			},
+			"cells": {},
+			"active_button": {}
+		},
+		"game_controller": {
+			"buttons": {
+				"сustomization_dialog_confirim": {
+					"cord": [1122.414, 61.79279],
+					"camera": "canvas"
+				},
+				"сustomization_dialog_cancel": {
+					"cord": [157.5856, 61.79279],
+					"camera": "canvas"
+				},
+				"сustomization_dialog_button_male": {
+					"cord": [592.012, 651.2072],
+					"camera": "canvas"
+				},
+				"сustomization_dialog_button_female": {
+					"cord": [687.988, 651.2072],
+					"camera": "canvas"
+				},
+				"license_dialog_confirm": {
+					"cord": [716.7808, 71.11221],
+					"camera": "canvas"
+				},
+				"license_dialog_go": {
+					"cord": [969.6776, 71.11221],
+					"camera": "canvas"
+				},
+				"server_selection_dialog_play": {
+					"cord": [935.1263, 114.3014],
+					"camera": "canvas"
+				},
+				"sync_rename_ok": {
+					"cord": [844.4288, 217.0533],
+					"camera": "canvas"
+				}
+			},
+			"cells": {},
+			"active_button": {}
+		},
+		"global_map": {
+			"buttons": {
+				"run": {
+					"cord": [645.2787, 265.9435],
+					"camera": "canvas"
+				},
+				"walk": {
+					"cord": [837.4226, 265.9435],
+					"camera": "canvas"
+				},
+				"ride": {
+					"cord": [455.1502, 264.6958],
+					"camera": "canvas"
+				},
+				"buy": {
+					"cord": [617.4409, 294.7363],
+					"camera": "canvas"
+				},
+				"close": {
+					"cord": [855.946, 439.1802],
+					"camera": "canvas"
+				},
+				"enter": {
+					"cord": [640, 278.0651],
+					"camera": "canvas"
+				},
+				"show": {
+					"cord": [843.9586, 296.6078],
+					"camera": "canvas"
+				},
+				"event_cancel": {
+					"cord": [686.0876, 296.6078],
+					"camera": "canvas"
+				},
+				"learn": {
+					"cord": [756.7291, 86.48476],
+					"camera": "canvas"
+				},
+				"learn_ok": {
+					"cord": [831.952, 183.884],
+					"camera": "canvas"
+				},
+				"craft_close": {
+					"cord": [1229.771, 360],
+					"camera": "canvas"
+				},
+				"current": {
+					"cord": [259.3964, 51.67807],
+					"camera": "canvas"
+				}
+			},
+			"locations": {
+				"home_location": {
+					"cord": [0, 0, 0],
+					"camera": "global_map"
+				},
+				"easy_forest_location": {
+					"cord": [8.61, 0, 0.24],
+					"camera": "global_map"
+				},
+				"normal_forest_location": {
+					"cord": [9.54, 0, 10.07],
+					"camera": "global_map"
+				},
+				"hard_forest_location": {
+					"cord": [3.31, 0, 15.53],
+					"camera": "global_map"
+				},
+				"easy_stones_location": {
+					"cord": [-7.85, 0, -4.4],
+					"camera": "global_map"
+				},
+				"normal_stones_location": {
+					"cord": [-13.93, 0, 2.14],
+					"camera": "global_map"
+				},
+				"hard_stones_location": {
+					"cord": [-20.8, 0, -2.31],
+					"camera": "global_map"
+				},
+				"bunker_alfa_location": {
+					"cord": [19.65, 0.15, -1.95],
+					"camera": "global_map"
+				},
+				"bunker_bravo_location": {
+					"cord": [9.45, 0.15, 23.48],
+					"camera": "global_map"
+				},
+				"bunker_charlie_location": {
+					"cord": [-16.54, 0, -14.65],
+					"camera": "global_map"
+				},
+				"bot_base_1_location": {
+					"cord": [22.82, 0, 2.32],
+					"camera": "global_map"
+				},
+				"bot_base_2_location": {
+					"cord": [-11.09, 0, 7.77],
+					"camera": "global_map"
+				},
+				"bot_base_3_location": {
+					"cord": [-4.81, 0, 18.51],
+					"camera": "global_map"
+				},
+				"toxic_forest_location": {
+					"cord": [18.9, 0, 14.4],
+					"camera": "global_map"
+				},
+				"oil_1_location": {
+					"cord": [24.6, 0, 25.16],
+					"camera": "global_map"
+				},
+				"tower_1_location": {
+					"cord": [-18.61, 0, 24.93],
+					"camera": "global_map"
+				},
+				"tress_lock_1_location": {
+					"cord": [-23.16, 0, 8.05],
+					"camera": "global_map"
+				},
+				"farm_location": {
+					"cord": [-14.53, 0, 14.77],
+					"camera": "global_map"
+				},
+				"gas_station_location": {
+					"cord": [11.68, 0, 14.93],
+					"camera": "global_map"
+				},
+				"police_station_location": {
+					"cord": [33.2, 0, 2.6],
+					"camera": "global_map"
+				},
+				"motel_location": {
+					"cord": [-7.66, 0, 13.68],
+					"camera": "global_map"
+				},
+				"wall_gate_location": {
+					"cord": [26.45, 0.15, 10.01],
+					"camera": "global_map"
+				},
+				"tower_lock_location": {
+					"cord": [-31.63, 0, 11.08],
+					"camera": "global_map"
+				},
+				"normal_oak_forest_location": {
+					"cord": [-25.13, 0, 22.63],
+					"camera": "global_map"
+				},
+				"hard_oak_forest_location": {
+					"cord": [-25.13, 0, 22.63],
+					"camera": "global_map"
+				},
+				"normal_winter_forest_location": {
+					"cord": [-30.37, 0, 34.64],
+					"camera": "global_map"
+				},
+				"hard_winter_forest_location": {
+					"cord": [-21.86, 0, 39.21],
+					"camera": "global_map"
+				},
+				"airdrop_location": {
+					"cord": [-2.13, 0.1503906, 8.37],
+					"camera": "global_map"
+				},
+				"trader_location": {
+					"cord": [0, -9999.85, 0],
+					"camera": "global_map"
+				},
+				"aircraft_1_location": {
+					"cord": [6.65, 0.1503906, 19.54],
+					"camera": "global_map"
+				},
+				"hunters_camp_location": {
+					"cord": [-10.5184, 0, -1.206434],
+					"camera": "global_map"
+				},
+				"aircraft_2_location": {
+					"cord": [0, -9999.85, 0],
+					"camera": "global_map"
+				},
+				"bike_event_location": {
+					"cord": [-10.45, 0.1503906, 21.32],
+					"camera": "global_map"
+				},
+				"chest_coordinates_location": {
+					"cord": [-18.52, 0, 0.84],
+					"camera": "global_map"
+				},
+				"oak_event_location": {
+					"cord": [-19.5, 0, 17.42],
+					"camera": "global_map"
+				},
+				"sieage_event_location": {
+					"cord": [0, -10000, 0],
+					"camera": "global_map"
+				},
+				"counter_sieage_event_location": {
+					"cord": [0, -10000, 0],
+					"camera": "global_map"
+				},
+				"convoy_location": {
+					"cord": [16.6, 0.1503906, 8.44],
+					"camera": "global_map"
+				}
+			},
+			"cells": {
+				"resipes": {
+					"start": [-68.83461, 528.1089],
+					"size": [5, 120],
+					"delta": [138.1559, -157.3443]
+				}
+			},
+			"active_button": {}
+		},
+		"bunker": {
+			"buttons": {
+				"lift_button_0": {
+					"cord": [487.0356, 430.7393],
+					"camera": "canvas"
+				},
+				"lift_button_1": {
+					"cord": [528.0222, 501.7303],
+					"camera": "canvas"
+				},
+				"lift_button_2": {
+					"cord": [599.0133, 542.717],
+					"camera": "canvas"
+				},
+				"lift_button_3": {
+					"cord": [680.9867, 542.717],
+					"camera": "canvas"
+				},
+				"lift_button_4": {
+					"cord": [751.9777, 501.7303],
+					"camera": "canvas"
+				},
+				"lift_button_5": {
+					"cord": [792.9644, 430.7393],
+					"camera": "canvas"
+				},
+				"use": {
+					"cord": [1077.955, 86.29279],
+					"camera": "canvas"
+				},
+				"auto": {
+					"cord": [42.36816, 42.36812],
+					"camera": "canvas"
+				},
+				"stelth": {
+					"cord": [1237.632, 42.36812],
+					"camera": "canvas"
+				},
+				"attack": {
+					"cord": [1182.207, 188.0102],
+					"camera": "canvas"
+				},
+				"inventory": {
+					"cord": [976.8083, 54.04024],
+					"camera": "canvas"
+				},
+				"store": {
+					"cord": [784.4539, 54.04024],
+					"camera": "canvas"
+				},
+				"blueprints": {
+					"cord": [876.2347, 54.04024],
+					"camera": "canvas"
+				},
+				"second_slot": {
+					"cord": [1201.207, 306.2559],
+					"camera": "canvas"
+				},
+				"third_slot": {
+					"cord": [1106.392, 283.9802],
+					"camera": "canvas"
+				},
+				"revive": {
+					"cord": [640, 205.6456],
+					"camera": "canvas"
+				},
+				"learn": {
+					"cord": [756.7709, 86.38676],
+					"camera": "canvas"
+				},
+				"learn_ok": {
+					"cord": [831.952, 183.884],
+					"camera": "canvas"
+				},
+				"craft_close": {
+					"cord": [1230, 360],
+					"camera": "canvas"
+				},
+				"hard_mode_confirim": {
+					"cord": [601.6096, 243.3579],
+					"camera": "canvas"
+				},
+				"hard_mode_exit": {
+					"cord": [601.6096, 166.5771],
+					"camera": "canvas"
+				},
+				"hard_mode_close": {
+					"cord": [1205.5, 360],
+					"camera": "canvas"
+				}
+			},
+			"cells": {
+				"resipes": {
+					"start": [-69.08859, 528.1691],
+					"size": [5, 120],
+					"delta": [138.2054, -157.4006]
+				}
+			},
+			"active_button": {}
+		},
+		"sync_home": {
+			"buttons": {
+				"use": {
+					"cord": [1077.955, 86.29279],
+					"camera": "canvas"
+				},
+				"attack": {
+					"cord": [1182.207, 188.0102],
+					"camera": "canvas"
+				},
+				"inventory": {
+					"cord": [976.8083, 54.04024],
+					"camera": "canvas"
+				},
+				"blueprints": {
+					"cord": [876.2347, 54.04024],
+					"camera": "canvas"
+				},
+				"store": {
+					"cord": [784.4539, 54.04024],
+					"camera": "canvas"
+				},
+				"sync_location_wood_1": {
+					"cord": [581.4546, 535.6361],
+					"camera": "canvas"
+				},
+				"sync_location_wood_0": {
+					"cord": [698.5454, 535.6361],
+					"camera": "canvas"
+				},
+				"sync_location_wood_2": {
+					"cord": [581.4546, 418.5454],
+					"camera": "canvas"
+				},
+				"sync_location_miner_boss": {
+					"cord": [464.364, 301.4546],
+					"camera": "canvas"
+				},
+				"sync_location_stone_2": {
+					"cord": [581.4546, 301.4546],
+					"camera": "canvas"
+				},
+				"sync_location_stone_1": {
+					"cord": [698.5454, 301.4546],
+					"camera": "canvas"
+				},
+				"sync_location_stone_0": {
+					"cord": [815.636, 301.4546],
+					"camera": "canvas"
+				},
+				"sync_location_battle_3": {
+					"cord": [698.5454, 184.3639],
+					"camera": "canvas"
+				},
+				"go_to_locations_wood_1": {
+					"cord": [835.791, 161.2526],
+					"camera": "canvas"
+				},
+				"go_to_locations_wood_0": {
+					"cord": [444.209, 161.2526],
+					"camera": "canvas"
+				},
+				"go_to_locations_wood_2": {
+					"cord": [835.791, 161.2526],
+					"camera": "canvas"
+				},
+				"go_to_locations_miner_boss": {
+					"cord": [718.7003, 161.2526],
+					"camera": "canvas"
+				},
+				"go_to_locations_stone_2": {
+					"cord": [835.791, 161.2526],
+					"camera": "canvas"
+				},
+				"go_to_locations_stone_1": {
+					"cord": [444.209, 161.2526],
+					"camera": "canvas"
+				},
+				"go_to_locations_stone_0": {
+					"cord": [561.2997, 161.2526],
+					"camera": "canvas"
+				},
+				"go_to_locations_battle_3": {
+					"cord": [444.209, 161.2526],
+					"camera": "canvas"
+				},
+				"storage_get_equip": {
+					"cord": [639.5201, 412.8951],
+					"camera": "canvas"
+				},
+				"storage_personal": {
+					"cord": [639.5201, 348.5912],
+					"camera": "canvas"
+				},
+				"storage_clan": {
+					"cord": [639.5201, 267.9713],
+					"camera": "canvas"
+				}
+			},
+			"cells": {},
+			"active_button": {}
+		},
+		"sync_inventory": {
+			"buttons": {
+				"use": {
+					"cord": [138.5254, 61.51462],
+					"camera": "canvas"
+				},
+				"split": {
+					"cord": [313.6816, 61.51462],
+					"camera": "canvas"
+				},
+				"delete": {
+					"cord": [542.2004, 61.51462],
+					"camera": "canvas"
+				},
+				"close": {
+					"cord": [1230, 360],
+					"camera": "canvas"
+				}
+			},
+			"cells": {
+				"loot": {
+					"start": [685.1088, 586.5015],
+					"size": [5, 60],
+					"delta": [101.7346, -99.81506]
+				},
+				"backpack": {
+					"start": [119.81, 366.7183],
+					"size": [5, 15],
+					"delta": [101.7346, -101.7346]
+				},
+				"pockets": {
+					"start": [119.81, 585.5436],
+					"size": [5, 10],
+					"delta": [101.7346, -101.7346]
+				}
+			},
+			"active_button": {}
+		},
+		"sync_craft": {
+			"buttons": {
+				"craft": {
+					"cord": [966.3185, 86.38676],
+					"camera": "canvas"
+				},
+				"learn_ok": {
+					"cord": [831.952, 183.884],
+					"camera": "canvas"
+				},
+				"close": {
+					"cord": [1230, 360],
+					"camera": "canvas"
+				}
+			},
+			"cells": {},
+			"active_button": {}
+		},
+		"sync": {
+			"buttons": {
+				"use": {
+					"cord": [1077.955, 86.29279],
+					"camera": "canvas"
+				},
+				"attack": {
+					"cord": [1182.207, 188.0102],
+					"camera": "canvas"
+				},
+				"inventory": {
+					"cord": [976.8083, 54.04024],
+					"camera": "canvas"
+				},
+				"blueprints": {
+					"cord": [876.2347, 54.04024],
+					"camera": "canvas"
+				},
+				"store": {
+					"cord": [784.4539, 54.04024],
+					"camera": "canvas"
+				},
+				"revive": {
+					"cord": [640, 205.6456],
+					"camera": "canvas"
+				}
+			},
+			"cells": {},
+			"active_button": {}
+		}
+	},
+	"cameras": {
+		"global_map": "SceneCameraSystem/SceneCamera",
+		"canvas": "canvas",
+		"game_controller": "Camera"
+	}
+}

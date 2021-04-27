@@ -1,0 +1,14 @@
+C:\Users\kapar\Downloads\Telegram Desktop\UiTest\UiTest\UiTest_Framework\Library\InterfaceUiTest.dll
+C:\Users\kapar\Downloads\Telegram Desktop\UiTest\UiTest\UiTest_Framework\Library\InterfaceUiTest.pdb
+C:\Users\kapar\Downloads\Telegram Desktop\UiTest\UiTest\UiTest_Framework\InterfaceUiTest\InterfaceUiTestLib\obj\Debug\InterfaceUiTestLib.csprojAssemblyReference.cache
+C:\Users\kapar\Downloads\Telegram Desktop\UiTest\UiTest\UiTest_Framework\InterfaceUiTest\InterfaceUiTestLib\obj\Debug\InterfaceUiTestLib.csproj.CoreCompileInputs.cache
+C:\Users\kapar\Downloads\Telegram Desktop\UiTest\UiTest\UiTest_Framework\InterfaceUiTest\InterfaceUiTestLib\obj\Debug\InterfaceUiTestLib.csproj.CopyComplete
+C:\Users\kapar\Downloads\Telegram Desktop\UiTest\UiTest\UiTest_Framework\InterfaceUiTest\InterfaceUiTestLib\obj\Debug\InterfaceUiTest.dll
+C:\Users\kapar\Downloads\Telegram Desktop\UiTest\UiTest\UiTest_Framework\InterfaceUiTest\InterfaceUiTestLib\obj\Debug\InterfaceUiTest.pdb
+D:\alien_projects\UiTest\UiTest_Framework\Library\InterfaceUiTest.dll
+D:\alien_projects\UiTest\UiTest_Framework\Library\InterfaceUiTest.pdb
+D:\alien_projects\UiTest\UiTest_Framework\InterfaceUiTest\InterfaceUiTestLib\obj\Debug\InterfaceUiTestLib.csprojAssemblyReference.cache
+D:\alien_projects\UiTest\UiTest_Framework\InterfaceUiTest\InterfaceUiTestLib\obj\Debug\InterfaceUiTestLib.csproj.CoreCompileInputs.cache
+D:\alien_projects\UiTest\UiTest_Framework\InterfaceUiTest\InterfaceUiTestLib\obj\Debug\InterfaceUiTestLib.csproj.CopyComplete
+D:\alien_projects\UiTest\UiTest_Framework\InterfaceUiTest\InterfaceUiTestLib\obj\Debug\InterfaceUiTest.dll
+D:\alien_projects\UiTest\UiTest_Framework\InterfaceUiTest\InterfaceUiTestLib\obj\Debug\InterfaceUiTest.pdb

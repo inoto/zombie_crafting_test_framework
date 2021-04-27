@@ -1,0 +1,29 @@
+{
+	"heal": {
+		"sprite": ["food_berry", "food_beans", "food_mushroom_normal", "food_turkey_raw", "food_turkey_roast", "food_steak", "food_jerky", "food_carrot_stew", "food_compote", "food_carrot", "bandage", "aid_kit", "food_rawmeat"]
+	},
+	"food": {
+		"sprite": ["food_berry", "food_beans", "food_mushroom_normal", "food_turkey_raw", "food_turkey_roast", "food_steak", "food_jerky", "food_carrot_stew", "food_compote", "food_carrot", "food_rawmeat"]
+	},
+	"water": {
+		"sprite": ["bottle_water", "food_compote", "food_whiskey"]
+	},
+	"pass_card_a": {
+		"sprite": ["pass_card_a"]
+	},
+	"firearms": {
+		"sprite": ["wpn_pipe_pistol", "wpn_glock", "wpn_glock", "wpn_flaregun", "wpn_vss_vintorez", "wpn_rifle_m16", "wpn_scar_stock", "wpn_rifle_ak47", "wpn_rifle_m32", "wpn_shotgun", "wpn_revolver", "wpn_glock_scope", "wpn_glock_silencer", "wpn_glock_ammo", "wpn_glock_sight", "wpn_glock_full", "wpn_rifle_m16_scope", "wpn_rifle_m16_silencer", "wpn_rifle_m16_ammo", "wpn_rifle_m16_sight", "wpn_rifle_m16_full", "wpn_rifle_ak47_scope", "wpn_rifle_ak47_silencer", "wpn_rifle_ak47_ammo", "wpn_rifle_ak47_sight", "wpn_rifle_ak47_full"]
+	},
+	"aid_kit": {
+		"sprite": ["aid_kit"]
+	},
+	"vss_vintorez": {
+		"sprite": ["wpn_vss_vintorez"]
+	},
+	"glock": {
+		"sprite": ["wpn_glock"]
+	},
+	"pass_card_b": {
+		"sprite": ["pass_card_b"]
+	}
+}

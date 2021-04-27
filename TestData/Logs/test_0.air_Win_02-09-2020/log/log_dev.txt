@@ -1,0 +1,10 @@
+{"time":"2020-9-2 07:33:02","name":"wait_dialog         ","duration":"00:00","result":"<00:00:00.1386017>","arg":"<start>, <start_screen>, <False>"}
+{"time":"2020-9-2 07:33:03","name":"player_move         ","duration":"00:00","result":"<False>","arg":"<(0,0, 0,0, 0,0)>"}
+{"time":"2020-9-2 07:33:03","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
+{"time":"2020-9-2 07:33:04","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<use>"}
+{"time":"2020-9-2 07:33:04","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
+{"time":"2020-9-2 07:33:05","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<use>"}
+{"time":"2020-9-2 07:33:05","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
+{"time":"2020-9-2 07:33:06","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<use>"}
+{"time":"2020-9-2 07:33:06","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
+{"time":"2020-9-2 07:33:02","name":"step_example             ","duration":"00:04","arg":[]}

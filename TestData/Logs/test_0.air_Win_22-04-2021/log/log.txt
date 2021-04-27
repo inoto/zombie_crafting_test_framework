@@ -1,0 +1,3 @@
+{"tag":"function","depth":1,"time":"2021-4-22 14:22:47","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619101367,"start_time":1619101367,"ret":null,"name":"example"}},
+{"tag":"function","depth":1,"time":"2021-4-22 14:22:47","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619101367,"start_time":1619101367,"ret":null,"name":"inventory_open"}},
+{"tag":"function","depth":1,"time":"2021-4-22 14:22:47","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619101368,"start_time":1619101367,"ret":null,"name":"inventory_open"}}

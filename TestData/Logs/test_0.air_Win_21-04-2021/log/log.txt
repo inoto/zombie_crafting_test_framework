@@ -1,0 +1,1 @@
+{"tag":"function","depth":1,"time":"2021-4-21 19:04:21","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619031867,"start_time":1619031861,"ret":null,"name":"example"}}

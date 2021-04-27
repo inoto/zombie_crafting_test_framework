@@ -1,0 +1,3 @@
+{"tag":"function","depth":1,"time":"2021-4-26 16:19:12","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619453952,"start_time":1619453952,"ret":null,"name":"example"}}
+{"tag":"info","depth":0,"time":"2021-4-26 04:19:20","data":{"name":"Final Error","traceback":"Дерево срублено, хотя не должно быть."}}
+{"tag":"info","depth":0,"time":"2021-4-26 04:19:20","data":{"name":"Final Error","traceback":"В инвентаре есть бревно, хотя не должно быть."}}

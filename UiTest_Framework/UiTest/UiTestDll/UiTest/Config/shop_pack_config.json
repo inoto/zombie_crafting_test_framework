@@ -1,0 +1,25 @@
+{
+	"packs": {
+		"object_name": {
+			"starter_pack": {
+				"name": "Стартовый набор сталкера"
+			},
+			"battle_pass": {
+				"name": "Дневник Выжившего"
+			}
+		},
+		"game_object_name": {
+			"name": "PacksSection(Clone)"
+		}
+	},
+	"categories": {
+		"object_name": {
+			"best": {
+				"name": "Лучшие"
+			}
+		},
+		"game_object_name": {
+			"name": "CategoryItem(Clone)"
+		}
+	}
+}

@@ -1,0 +1,5 @@
+{"tag":"function","depth":1,"time":"2021-4-23 20:18:19","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619209100,"start_time":1619209099,"ret":null,"name":"example"}}
+{"tag":"function","depth":1,"time":"2021-4-23 20:18:20","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619209100,"start_time":1619209100,"ret":null,"name":"inventory_open"}}
+{"tag":"function","depth":1,"time":"2021-4-23 20:18:20","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619209100,"start_time":1619209100,"ret":null,"name":"inventory_move_item"}}
+{"tag":"function","depth":1,"time":"2021-4-23 20:18:20","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619209100,"start_time":1619209100,"ret":null,"name":"inventory_open"}}
+{"tag":"function","depth":1,"time":"2021-4-23 20:18:20","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619209105,"start_time":1619209100,"ret":null,"name":"player_move_sawmill"}}

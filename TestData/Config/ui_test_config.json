@@ -1,0 +1,109 @@
+{
+	"main": {
+		"buttons": {
+			"use": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Game:UICanvas/UI_MainScreen/Root/NormalModePanel/Panel_MainButtons/Button_Use"
+			},
+			"inventory": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Game:UICanvas/UI_MainScreen/Root/SecondaryButtonsPanel/Button_Backpack"
+			}
+		},
+		"cells": {},
+		"content": {
+			"start_screen": {
+				"type_search": "cache_search",
+				"path": "Start:Canvas/Image"
+			},
+			"use_active": {
+				"type_search": "cache_search",
+				"path": "Game:UICanvas/UI_MainScreen/Root/NormalModePanel/Panel_MainButtons/Button_Use/Root/Content"
+			},
+			"use_target": {
+				"type_search": "cache_search",
+				"path": "Game:Location/UseTarget"
+			}
+			
+		}
+	},
+	"inventory": {
+		"buttons": {
+			"delete": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Game:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BackpackPanel/Root/ButtonsPanel/ButtonDelete"
+			},
+			"close": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Game:UICanvas/UI_InventoryPanel/Root/ButtonClose"
+			},
+			"skip": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Game:UICanvas/UI_InventoryPanel/Root/InventoryPanels/ConversionPanel/ButtonsPanel/ButtonSkip"
+			}
+		},
+		"cells": {
+			"pockets": {
+				"start_index": 0,
+				"type": "pointer_button",
+				"property": "parenthesis",
+				"format": "{0}{1}",
+				"path": "Game:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BackpackPanel/Root/Pockets/Cell"
+			},
+			"backpack": {
+				"start_index": 0,
+				"type": "pointer_button",
+				"property": "parenthesis",
+				"format": "{0}{1}",
+				"path": "Game:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BackpackPanel/Root/Backpack/Cell"
+			},
+			"workbench_row": {
+				"start_index": 0,
+				"type": "pointer_button",
+				"property": "parenthesis",
+				"format": "{0}{1}",
+				"path": "Game:UICanvas/UI_InventoryPanel/Root/InventoryPanels/ConversionPanel/ProcessPanel/Panel_Small/RawPanel/MaterialCell"
+			},
+			"workbench_result": {
+				"start_index": 0,
+				"type": "pointer_button",
+				"property": "parenthesis",
+				"format": "{0}{1}",
+				"path": "Game:UICanvas/UI_InventoryPanel/Root/InventoryPanels/ConversionPanel/ProcessPanel/Panel_Small/ResultCell/MaterialCell"
+			},
+		},
+		"content": {
+			"dialog": {
+			"type_search": "cache_search",
+				"path": "Game:UICanvas/UI_InventoryPanel/Root"
+			},
+			"inventory_count": {
+			"type_search": "cache_search",
+				"path": "Game:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BackpackPanel/Root/Pockets"
+			},
+			"backpack_count": {
+			"type_search": "cache_search",
+				"path": "Game:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BackpackPanel/Root/Backpack"
+			},
+			"workbench_progress_bar": {
+			"type_search": "cache_search",
+				"path": "Game:UICanvas/UI_InventoryPanel/Root/InventoryPanels/ConversionPanel/ProcessPanel/Panel_Small/ResultInfo/ProgressBar/ProgressLevel"
+			}
+		}
+	},
+	"start": {
+		"buttons": {},
+		"cells": {},
+		"content": {
+			"start_screen": {
+				"type_search": "cache_search",
+				"path": "Start:Canvas/Image"
+			}
+		}
+	}
+}

@@ -1,0 +1,1518 @@
+{
+	"battle": {
+		"buttons": {
+			"use": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/NormalModePanel/Panel_MainButtons/Button_Use"
+			},
+			"auto": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/NormalModePanel/Button_LeftAngle"
+			},
+			"stelth": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/NormalModePanel/Button_RightAngle"
+			},
+			"attack": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/NormalModePanel/Panel_MainButtons/Button_Attack"
+			},
+			"inventory": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/SecondaryButtonsPanel/Button_Backpack"
+			},
+			"store": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/SecondaryButtonsPanel/Button_Store"
+			},
+			"blueprints": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/SecondaryButtonsPanel/Button_Craft"
+			},
+			"builder": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/NormalModePanel/Panel_MainButtons/Button_Build"
+			},
+			"second_slot": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/NormalModePanel/Panel_MainButtons/Button_QuickSlot"
+			},
+			"third_slot": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/NormalModePanel/Panel_MainButtons/Button_QuickSlot_second"
+			},
+			"revive": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UIOverlayCanvas/DeathDialog/Root/ButtonRevive"
+			},
+			"terminal_bunker_confirim": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UICanvas/TerminalDialog/Root/RootContent/ButtonConfirm"
+			},
+			"special_offer_buy": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UIOverlayCanvas/SpecialOfferBuyDialog/Root/ButtonsPanel/ButtonBuy"
+			},
+			"special_offer_close": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UIOverlayCanvas/SpecialOfferBuyDialog/Root/ButtonsPanel/ButtonCancel"
+			},
+			"horde_ok": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UIOverlayCanvas/ZombieAttackDialog/Root/ButtonOk"
+			},
+			"code_corpse_ok": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UIOverlayCanvas/RadioMessageDialog/Root/ButtonOk"
+			},
+			"social_close": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UICanvas/SocialDialog/Root/ButtonClose"
+			},
+			"social_friends": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/Menu/ButtonsContainer/ButtonFriends"
+			},
+			"social_clan": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/Menu/ButtonsContainer/ButtonFriends"
+			},
+			"social_group": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/Menu/ButtonsContainer/ButtonFriends"
+			},
+			"social_settings": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/Menu/ButtonSettings"
+			},
+			"social_friend_invite_to_clan": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/FriendsPanel/Content/OptionsContainer/Menu/invite_to_clan"
+			},
+			"social_friend_kick_from_clan": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/FriendsPanel/Content/OptionsContainer/Menu/kick_from_clan"
+			},
+			"social_friend_invite_to_party": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/FriendsPanel/Content/OptionsContainer/Menu/invite_to_party"
+			},
+			"social_friend_kick_from_party": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/FriendsPanel/Content/OptionsContainer/Menu/kick_from_party"
+			},
+			"social_friend_remove_from_friend": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/FriendsPanel/Content/OptionsContainer/Menu/remove_from_friend"
+			},
+			"social_friend_send_pm": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/FriendsPanel/Content/OptionsContainer/Menu/send_pm"
+			},
+			"social_party_invite_to_clan": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/PartyPanel/Content/OptionsContainer/Menu/invite_to_clan"
+			},
+			"social_party_kick_from_clan": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/PartyPanel/Content/OptionsContainer/Menu/kick_from_clan"
+			},
+			"social_party_add_to_friend": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/PartyPanel/Content/OptionsContainer/Menu/add_to_friend"
+			},
+			"social_party_kick_from_party": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/PartyPanel/Content/OptionsContainer/Menu/kick_from_group"
+			},
+			"social_party_remove_from_friend": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/PartyPanel/Content/OptionsContainer/Menu/remove_from_friend"
+			},
+			"social_party_make_leader": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/PartyPanel/Content/OptionsContainer/Menu/make_leader"
+			},
+			"social_clan_create": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/ClanPanel/StartPanel/ButtonCreate"
+			},
+			"social_clan_join": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/ClanPanel/StartPanel/ButtonJoin"
+			},
+			"social_clan_info_join": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/ClanPanel/SearchClanPanel/InfoPanel/MainContainer/ButtonJoin"
+			},
+			"social_clan_info_members": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/ClanPanel/SearchClanPanel/InfoPanel/MainContainer/ButtonViewMembers"
+			},
+			"social_clan_info_members_ok": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UIOverlayCanvas/ViewClanMembersDialog/Root/Container/ButtonsPanel/ButtonConfirm"
+			},
+			"social_clan_search": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/ClanPanel/SearchClanPanel/SearchOptionsPanel/ButtonSearchContainer/ButtonSearch"
+			},
+			"social_clan_update": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/ClanPanel/SearchClanPanel/SearchOptionsPanel/ButtonUpdateContainer/ButtonUpdate"
+			},
+			"social_clan_page_next": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/ClanPanel/SearchClanPanel/ButtonsPanel/ButtonNext"
+			},
+			"social_clan_page_prevous": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/ClanPanel/SearchClanPanel/ButtonsPanel/ButtonPrevous"
+			},
+			"social_clan_create_type_open": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/ClanPanel/CreateClanPanel/JoiningTypePanel/Open"
+			},
+			"social_clan_create_type_requests": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/ClanPanel/CreateClanPanel/JoiningTypePanel/Requests"
+			},
+			"social_clan_create_type_closed": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/ClanPanel/CreateClanPanel/JoiningTypePanel/Closed"
+			},
+			"confirm_delete": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UIOverlayCanvas/ConfirmDeleteDialog/Root/ButtonsPanel/ButtonDelete"
+			},
+			"confirm_сancel": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UIOverlayCanvas/ConfirmDeleteDialog/Root/ButtonsPanel/ButtonCancel"
+			},
+			"action_stacks_pay_dialog_ok": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UIOverlayCanvas/ActionStacksPayDialog/Root/Container/ButtonsPanel/ButtonOk"
+			},
+			"action_stacks_pay_dialog_cancel": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UIOverlayCanvas/ActionStacksPayDialog/Root/Container/ButtonsPanel/ButtonCancel"
+			},
+			"police_station_start_wave": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UICanvas/HardModeTerminalDialog/Root/RootContent/ButtonConfirm"
+			},
+			"police_station_leave_wave": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UICanvas/HardModeTerminalDialog/Root/RootContent/ButtonExit"
+			},
+			"police_station_close_dialog": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UICanvas/HardModeTerminalDialog/Root/ButtonClose"
+			}
+		},
+		"cells": {
+			"bunker_button": {
+				"start_index": 1,
+				"format": "{0}/Key_{1}",
+				"path": "Battle:UICanvas/TerminalDialog/Root/RootContent/KeyboardPanel"
+			},
+			"social_actions_friend": {
+				"start_index": 1,
+				"format": "{0}/SocialUserView(Clone):{1}/Manage",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/FriendsPanel/Content/ListPanel/FriendsListPanel/Scroll View/Viewport/Content"
+			},
+			"social_actions_party": {
+				"start_index": 1,
+				"format": "{0}/SocialPartyMemberView(Clone):{1}/Button",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/PartyPanel/Content/ListPanel/GroupListPanel/Scroll View/Viewport/Content"
+			},
+			"social_clans": {
+				"start_index": 1,
+				"format": "{0}/SocialClanView {1}",
+				"path": "Battle:UICanvas/SocialDialog/Root/Content/ClanPanel/ClansListPanel/ScrollView/Viewport/Content/Viewport"
+			}
+		},
+		"content": {
+			"health_bar_target": {
+				"type_search": "cache_search",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/EnemyHealthPanel"
+			},
+			"health_bar_target_active": {
+				"type_search": "cache_search",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/EnemyHealthPanel/Bar_Object"
+			},
+			"health_bar_player": {
+				"type_search": "cache_search",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/HealthPanel"
+			},
+			"notify_1": {
+				"type_search": "cache_search",
+				"path": "Battle:UICanvas/FollowStats/PlayerRoot/Notify1"
+			},
+			"notify_2": {
+				"type_search": "cache_search",
+				"path": "Battle:UICanvas/FollowStats/PlayerRoot/Notify2"
+			},
+			"bunker_code_terminal": {
+				"type_search": "cache_search",
+				"path": "Battle:UICanvas/TerminalDialog/Root"
+			},
+			"builder_controller": {
+				"type_search": "cache_search",
+				"path": "Battle:BuilderController"
+			},
+			"game_camera": {
+				"type_search": "cache_search",
+				"path": "Battle:SceneCameraSystem/GameCamera"
+			},
+			"locations": {
+				"type_search": "cache_search",
+				"path": "Battle:Location"
+			},
+			"code_corpse_pass": {
+				"type_search": "cache_search",
+				"path": "Battle:UIOverlayCanvas/RadioMessageDialog/Root/Password"
+			},
+			"chest_progress_bar": {
+				"type_search": "cache_search",
+				"path": "Battle:UIHudCanvas/ChestProgressBar(Clone)/Root"
+			},
+			"use_button_icon": {
+				"type_search": "cache_search",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/NormalModePanel/Panel_MainButtons/Button_Use/Root/Content/Icon"
+			},
+			"attack_button_icon": {
+				"type_search": "cache_search",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/NormalModePanel/Panel_MainButtons/Button_Attack/Root/Icon"
+			},
+			"noise_level_amout": {
+				"type_search": "cache_search",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/NoiseLevel/Root/Amount"
+			},
+			"enemy_target": {
+				"type_search": "cache_search",
+				"path": "Battle:EnemyTarget"
+			},
+			"use_target": {
+				"type_search": "cache_search",
+				"path": "Battle:UseTarget"
+			},
+			"player": {
+				"type_search": "cache_search",
+				"path": "Battle:Location/character_man(Clone)"
+			},
+			"social_dialog": {
+				"type_search": "cache_search",
+				"path": "Battle:UICanvas/SocialDialog/Root"
+			}
+		}
+	},
+	"inventory": {
+		"buttons": {
+			"use": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BackpackPanel/Root/ButtonsPanel/ButtonUse"
+			},
+			"split": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BackpackPanel/Root/ButtonsPanel/ButtonSplit"
+			},
+			"delete": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BackpackPanel/Root/ButtonsPanel/ButtonDelete"
+			},
+			"take_all": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/LootPanel/ButtonsPanel/ButtonTakeAll"
+			},
+			"combine": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/LootPanel/ButtonsPanel/ButtonCombine"
+			},
+			"close": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/ButtonClose"
+			},
+			"bunker_open": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BunkerPanel/ButtonOpen"
+			}
+		},
+		"cells": {
+			"loot": {
+				"start_index": 0,
+				"format": "{0}{1}",
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/LootPanel/Scroll View/Viewport/Content/ItemsPanel/Cell"
+			},
+			"backpack": {
+				"start_index": 0,
+				"format": "{0}{1}",
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BackpackPanel/Root/Backpack/Cell"
+			},
+			"pockets": {
+				"start_index": 0,
+				"format": "{0}{1}",
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BackpackPanel/Root/Pockets/Cell"
+			},
+			"collections": {
+				"start_index": 0,
+				"format": "{0}{1}",
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/CollectionPanel/Root/Cells/Cell"
+			},
+			"bunker_cell_card": {
+				"start_index": 0,
+				"format": "{0}{1}",
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BunkerPanel/ContentPanel/Cell"
+			}
+		},
+		"content": {
+			"health": {
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/StatsPanel/PanelTop/NameHpContainer/HP_Panel"
+			},
+			"food": {
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/StatsPanel/StatusPanel/Statuses/Food/Text"
+			},
+			"water": {
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/StatsPanel/StatusPanel/Statuses/Water/Text"
+			},
+			"dialog": {
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root"
+			},
+			"loot_count": {
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/LootPanel/Scroll View/Viewport/Content/ItemsPanel"
+			},
+			"backpack_count": {
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BackpackPanel/Root/Backpack"
+			},
+			"pockets_count": {
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BackpackPanel/Root/Pockets"
+			},
+			"bunker_cell_card": {
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BunkerPanel/ContentPanel/Cell"
+			},
+			"health_panel": {
+				"path": "Inventory:UICanvas/UI_InventoryPanel/Root/InventoryPanels/StatsPanel/PanelTop/NameHpContainer/HP_Panel"
+			}
+		}
+	},
+	"craft": {
+		"buttons": {
+			"craft": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UICanvas/CraftDialog/Root/Content/DescriptionPanel/ButtonCraft"
+			},
+			"learn": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UICanvas/CraftDialog/Root/Content/DescriptionPanel/ButtonLearn"
+			},
+			"learn_ok": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UIOverlayCanvas/RecipeLearnedDialog/Root/ButtonOk"
+			},
+			"close": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/CraftDialog/Root/ButtonClose"
+			}
+		},
+		"cells": {
+			"resipes": {
+				"start_index": 0,
+				"format": "{0}{1}/Background",
+				"path": "Battle:UICanvas/CraftDialog/Root/Content/RecipesPanel/Scroll View/Viewport/ItemsPanel/CellCraft"
+			}
+		},
+		"content": {
+			"dialog": {
+				"path": "Battle:UICanvas/CraftDialog/Root"
+			},
+			"resipes_count": {
+				"path": "Battle:UICanvas/CraftDialog/Root/Content/RecipesPanel/Scroll View/Viewport/ItemsPanel"
+			}
+		}
+	},
+	"builder": {
+		"buttons": {
+			"build_cancel": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/BuilderButtons/Buttons/ButtonCancel"
+			},
+			"destroy": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/BuilderButtons/Buttons/ButtonDestroy"
+			},
+			"build_ok": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/BuilderButtons/Buttons/ButtonOk"
+			},
+			"destroy_confirim": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Battle:UIOverlayCanvas/ConfirmDeleteDialog/Root/ButtonsPanel/ButtonDelete"
+			},
+			"build_cathegory": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/UI_BuilderMenu/Root/MenuPanel/Content/ButtonBuildCathegory"
+			},
+			"inventory_cathegory": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/UI_BuilderMenu/Root/MenuPanel/Content/ButtonInventoryCathegory"
+			},
+			"close": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Battle:UICanvas/UI_BuilderMenu/Root/MenuPanel/Content/ButtonClose"
+			}
+		},
+		"cells": {
+			"build_item": {
+				"start_index": 0,
+				"format": "{0}{1}",
+				"path": "Battle:UICanvas/UI_BuilderMenu/Root/Cathegories/Build/Viewport/Content/BuildItemView"
+			},
+			"inventory_item": {
+				"start_index": 0,
+				"format": "{0}{1}",
+				"path": "Battle:UICanvas/UI_BuilderMenu/Root/Cathegories/Inventory/ViewPort/Content/InventoryItemView"
+			}
+		},
+		"content": {
+			"dialog": {
+				"path": "Battle:UICanvas/UI_BuilderMenu/Root"
+			},
+			"build_item_count": {
+				"path": "Battle:UICanvas/UI_BuilderMenu/Root/Cathegories/Build/Viewport/Content"
+			},
+			"inventory_item_count": {
+				"path": "Battle:UICanvas/UI_BuilderMenu/Root/Cathegories/Inventory/ViewPort/Content"
+			}
+		}
+	},
+	"global_map": {
+		"buttons": {
+			"home_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/MainBase/Mesh"
+			},
+			"easy_forest_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Trees_01_1/Stone_Dirt"
+			},
+			"normal_forest_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Trees_01_2/Stone_Dirt"
+			},
+			"hard_forest_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Trees_01_3/Stone_Dirt"
+			},
+			"easy_stones_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Stones_01_5/Stone1"
+			},
+			"normal_stones_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Stones_01_6/Stone2"
+			},
+			"hard_stones_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Stones_01_7/Stone3"
+			},
+			"bunker_alfa_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Shelter_01_8/Place"
+			},
+			"bunker_bravo_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Shelter_01_60/Place"
+			},
+			"bunker_charlie_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Shelter_02_19/Dirt"
+			},
+			"bot_base_1_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:ObjectPool/StartRaidPoint(Clone)"
+			},
+			"bot_base_2_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:ObjectPool/StartRaidPoint(Clone):1"
+			},
+			"bot_base_3_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:ObjectPool/StartRaidPoint(Clone):2"
+			},
+			"toxic_forest_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Boss_12/Tree"
+			},
+			"oil_1_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Oil_Rig/Root/Dirt"
+			},
+			"tower_1_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Tower_1/Model"
+			},
+			"tress_lock_1_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Trees_02_Locked_01/Dirt"
+			},
+			"farm_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Farm_01/Mesh"
+			},
+			"gas_station_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/New_Gas_Station_01/Mesh"
+			},
+			"police_station_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Town_Points/PoliceStation/Mesh"
+			},
+			"motel_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Motel/Mesh"
+			},
+			"wall_gate_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_1_Points/Wall_Gate_01/Place"
+			},
+			"tower_lock_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_2_Points/Tower_2/Model"
+			},
+			"normal_oak_forest_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_2_Points/Trees_02_14/Dirt"
+			},
+			"hard_oak_forest_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_2_Points/Trees_02_14/Dirt"
+			},
+			"normal_winter_forest_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_2_Points/Winter_Forest_Normal/Forest"
+			},
+			"hard_winter_forest_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:GlobalMapLocations/Tier_2_Points/Winter_Forest_Hard/Forest"
+			},
+			"airdrop_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:ObjectPool/Airdrop(Clone)/Place"
+			},
+			"trader_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:ObjectPool/Traider(Clone)/Place"
+			},
+			"aircraft_1_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:ObjectPool/Airplane(Clone)/Place"
+			},
+			"hunters_camp_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:ObjectPool/Hunters_camp(Clone)/Model"
+			},
+			"aircraft_2_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:ObjectPool/GasStation(Clone)/Place"
+			},
+			"bike_event_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:ObjectPool/BikeEvent(Clone)/Place"
+			},
+			"chest_coordinates_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:ObjectPool/ChestCoordinates(Clone)/Dirt"
+			},
+			"oak_event_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:ObjectPool/OakEvent(Clone)/Dirt"
+			},
+			"sieage_event_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:ObjectPool/SiegePoint(Clone)/Stone_Dirt"
+			},
+			"counter_sieage_event_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:ObjectPool/RevengePoint(Clone)/Stone_Dirt"
+			},
+			"convoy_location": {
+				"type_search": "cache_search",
+				"type": "collider",
+				"path": "GlobalMap:ObjectPool/Convoy(Clone)/Place"
+			},
+			"run": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GlobalMap:UIOverlayCanvas/GoToDialog/Root/Container/AvaliablePanel/ButtonsPanel/ButtonRun"
+			},
+			"walk": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GlobalMap:UIOverlayCanvas/GoToDialog/Root/Container/AvaliablePanel/ButtonsPanel/ButtonWalk"
+			},
+			"ride": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GlobalMap:UIOverlayCanvas/GoToDialog/Root/Container/AvaliablePanel/ButtonsPanelTransport/ButtonRide"
+			},
+			"buy": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GlobalMap:UIOverlayCanvas/BuyEnergyDialog/Root/ButtonsPanel/ButtonBuy"
+			},
+			"close": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GlobalMap:UIOverlayCanvas/BuyEnergyDialog/Root/ButtonClose"
+			},
+			"enter": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GlobalMap:UIPointsCanvas/MapPointPlayer/Root/ButtonGoIn/Root"
+			},
+			"show": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GlobalMap:UIOverlayCanvas/EmergenceDialog/Root/ButtonsPanel/ButtonShow"
+			},
+			"event_cancel": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GlobalMap:UIOverlayCanvas/EmergenceDialog/Root/ButtonsPanel/ButtonCancel"
+			},
+			"learn": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GlobalMap:UICanvas/CraftDialog/Root/Content/DescriptionPanel/ButtonLearn"
+			},
+			"learn_ok": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GlobalMap:UIOverlayCanvas/RecipeLearnedDialog/Root/ButtonOk"
+			},
+			"craft_close": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "GlobalMap:UICanvas/CraftDialog/Root/ButtonClose"
+			},
+			"current": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GlobalMap:UICanvas/Map_UI/Root/Panel_Bottom/Content/Panel_Location"
+			}
+		},
+		"cells": {
+			"resipes": {
+				"start_index": 0,
+				"format": "{0}{1}/Background",
+				"path": "GlobalMap:UICanvas/CraftDialog/Root/Content/RecipesPanel/Scroll View/Viewport/ItemsPanel/CellCraft"
+			}
+		},
+		"content": {
+			"dialog": {
+				"type_search": "cache_search",
+				"path": "GlobalMap:UIOverlayCanvas/GoToDialog/Root"
+			},
+			"event_dialog": {
+				"type_search": "cache_search",
+				"path": "GlobalMap:UIOverlayCanvas/EmergenceDialog/Root"
+			},
+			"craft_dialog": {
+				"type_search": "cache_search",
+				"path": "GlobalMap:UICanvas/CraftDialog/Root"
+			},
+			"resipes_count": {
+				"type_search": "cache_search",
+				"path": "GlobalMap:UICanvas/CraftDialog/Root/Content/RecipesPanel/Scroll View/Viewport/ItemsPanel"
+			},
+			"game_camera": {
+				"type_search": "cache_search",
+				"path": "Battle:SceneCameraSystem/SceneCamera"
+			}
+		}
+	},
+	"shop": {
+		"buttons": {
+			"small_dialog_buy": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopPackSmallDialog/Root/ButtonsPanel/ButtonBuy"
+			},
+			"small_dialog_close": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopPackSmallDialog/Root/ButtonsPanel/ButtonClose"
+			},
+			"dota_gacha_dialog_buy": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UICanvas/ShopDotaGachaDialog/Root/Content/ButtonPanel/ButtonBuy"
+			},
+			"dota_gacha_dialog_close": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UICanvas/ShopDotaGachaDialog/Root/Content/ButtonClose"
+			},
+			"dota_gacha_dialog_open": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UICanvas/ShopDotaGachaDialog/Root/Content/ButtonPanel/ButtonOpen"
+			},
+			"dota_gacha_buy_dialog_buy_1": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopDotaGachaBuyDialog/Root/BuyButton"
+			},
+			"dota_gacha_buy_dialog_buy_2": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopDotaGachaBuyDialog/Root/BuyButton1"
+			},
+			"dota_gacha_buy_dialog_buy_3": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopDotaGachaBuyDialog/Root/BuyButton2"
+			},
+			"dota_gacha_buy_dialog_close": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopDotaGachaBuyDialog/Root/ButtonClose"
+			},
+			"ok": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopResultDialog/Root/ButtonOk"
+			},
+			"exp_dialog_buy": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopPackExperienceDialog/Root/ButtonsPanel/ButtonBuy"
+			},
+			"exp_dialog_close": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopPackExperienceDialog/Root/ButtonsPanel/ButtonClose"
+			},
+			"exp_dialog_ok": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopResultExperience/Root/ButtonOk"
+			},
+			"standart_dialog_buy": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopPackStandardDialog/Root/ButtonsPanel/ButtonBuy"
+			},
+			"standart_dialog_close": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopPackStandardDialog/Root/ButtonsPanel/ButtonClose"
+			},
+			"pets_dialog_buy": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopPuppyBuyDialog/Root/ButtonsPanel/ButtonBuy"
+			},
+			"pets_dialog_close": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopPuppyBuyDialog/Root/ButtonsPanel/ButtonClose"
+			},
+			"pass_dialog_buy": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UICanvas/ShopAbonementPremiumDialog/Root/Content/PassPanel/ButtonPanel/ButtonBuy"
+			},
+			"pass_dialog_skip": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UICanvas/ShopAbonementPremiumDialog/Root/Content/PassPanel/ButtonPanel/ButtonSkipLevel"
+			},
+			"pass_dialog_close": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UICanvas/ShopAbonementPremiumDialog/Root/Content/ButtonClose"
+			},
+			"pass_dialog_quest": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UICanvas/ShopAbonementPremiumDialog/Root/Content/PassPanel/InfoPanel /Button"
+			},
+			"quest_list_dialog_next": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopAbonementPremiumQuestList/Root/NotePanel/ButtonsPanel/ButtonNext"
+			},
+			"quest_list_dialog_prevous": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopAbonementPremiumQuestList/Root/NotePanel/ButtonsPanel/ButtonPrevous"
+			},
+			"quest_list_dialog_close": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UIOverlayCanvas/ShopAbonementPremiumQuestList/Root/Header/ButtonClose"
+			},
+			"coins": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UICanvas/ShopDialog/Root/Content/MenuPanel/Categories/Coins"
+			},
+			"best": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Shop:UICanvas/ShopDialog/Root/Content/MenuPanel/Categories/Content/CategoryItem(Clone)"
+			},
+			"build": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Shop:UICanvas/ShopDialog/Root/Content/MenuPanel/Categories/Content/CategoryItem(Clone):1"
+			},
+			"pets": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Shop:UICanvas/ShopDialog/Root/Content/MenuPanel/Categories/Content/CategoryItem(Clone):2"
+			},
+			"transport": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Shop:UICanvas/ShopDialog/Root/Content/MenuPanel/Categories/Content/CategoryItem(Clone):3"
+			},
+			"equip": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Shop:UICanvas/ShopDialog/Root/Content/MenuPanel/Categories/Content/CategoryItem(Clone):4"
+			},
+			"exp": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Shop:UICanvas/ShopDialog/Root/Content/MenuPanel/Categories/Content/CategoryItem(Clone):5"
+			},
+			"money": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Shop:UICanvas/ShopDialog/Root/Content/MenuPanel/Categories/Content/CategoryItem(Clone):6"
+			},
+			"inbox": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "Shop:UICanvas/ShopDialog/Root/Content/MenuPanel/Categories/Content/CategoryInbox(Clone)"
+			},
+			"close": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Shop:UICanvas/ShopDialog/Root/Content/ButtonClose"
+			}
+		},
+		"cells": {
+			"inbox_item": {
+				"start_index": 1,
+				"format": "{0}/item_{1}/InboxItem(Clone)/ButtonTake",
+				"path": "Shop:UICanvas/ShopDialog/Root/Content/Scroll View/Viewport/ContentSectionsInbox(Clone)"
+			},
+			"inbox_gacha": {
+				"start_index": 1,
+				"format": "{0}/item_{1}/InboxGachaItem(Clone)/ButtonTake",
+				"path": "Shop:UICanvas/ShopDialog/Root/Content/Scroll View/Viewport/ContentSectionsInbox(Clone)"
+			}
+		},
+		"content": {
+			"dialog": {
+				"type_search": "cache_search",
+				"path": "Shop:UICanvas/ShopDialog/Root"
+			},
+			"inbox_item_count": {
+				"path": "Shop:UICanvas/ShopDialog/Root/Content/Scroll View/Viewport/ContentSectionsInbox(Clone)"
+			}
+		}
+	},
+	"game_controller": {
+		"buttons": {
+			"сustomization_dialog_confirim": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GameController/CanvasOverlay/CustomizationDialog/Root/ButtonConfirm"
+			},
+			"сustomization_dialog_cancel": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GameController/CanvasOverlay/CustomizationDialog/Root/ButtonCancel"
+			},
+			"сustomization_dialog_button_male": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GameController/CanvasOverlay/CustomizationDialog/Root/Content/ButtonMale"
+			},
+			"сustomization_dialog_button_female": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GameController/CanvasOverlay/CustomizationDialog/Root/Content/ButtonFemale"
+			},
+			"license_dialog_confirm": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GameController/CanvasOverlay/LicenseDialog/Root/ConfirmButton"
+			},
+			"license_dialog_go": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GameController/CanvasOverlay/LicenseDialog/Root/GoToButton"
+			},
+			"server_selection_dialog_play": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GameController/CanvasOverlay/ServerSelectionDialog/Root/ButtonPlay"
+			},
+			"sync_invite_confirm": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GameController/CanvasOverlay/InviteDialog/Root/Container/ButtonsPanel/ButtonConfirm"
+			},
+			"sync_invite_cancel": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GameController/CanvasOverlay/InviteDialog/Root/Container/ButtonsPanel/ButtonCancel"
+			},
+			"sync_rename_ok": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "GameController/CanvasOverlay/SyncRenameDialog/Root/ButtonsPanel/ButtonOk"
+			}
+		},
+		"cells": {},
+		"content": {
+			"сustomization_dialog": {
+				"type_search": "cache_search",
+				"path": "GameController/CanvasOverlay/CustomizationDialog/Root"
+			},
+			"license_dialog": {
+				"type_search": "cache_search",
+				"path": "GameController/CanvasOverlay/LicenseDialog/Root"
+			},
+			"server_selection_dialog": {
+				"type_search": "cache_search",
+				"path": "GameController/CanvasOverlay/ServerSelectionDialog/Root"
+			},
+			"default_screen": {
+				"type_search": "cache_search",
+				"path": "GameController/Canvas/DefaultScreen/Root"
+			},
+			"location_screen": {
+				"type_search": "cache_search",
+				"path": "GameController/Canvas/LocationScreen/Root"
+			},
+			"sync_location_screen": {
+				"type_search": "cache_search",
+				"path": "GameController/Canvas/SyncLocationScreen/Root"
+			},
+			"sync_rename_dialog": {
+				"type_search": "cache_search",
+				"path": "GameController/CanvasOverlay/SyncRenameDialog/Root"
+			},
+			"sync_invite_dialog": {
+				"type_search": "cache_search",
+				"path": "GameController/CanvasOverlay/InviteDialog/Root"
+			}
+		}
+	},
+	"bunker": {
+		"buttons": {
+			"use": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "BunkerBattle:UICanvas/UI_MainScreen/Root/NormalModePanel/Panel_MainButtons/Button_Use"
+			},
+			"auto": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "BunkerBattle:UICanvas/UI_MainScreen/Root/NormalModePanel/Button_LeftAngle"
+			},
+			"stelth": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "BunkerBattle:UICanvas/UI_MainScreen/Root/NormalModePanel/Button_RightAngle"
+			},
+			"attack": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "BunkerBattle:UICanvas/UI_MainScreen/Root/NormalModePanel/Panel_MainButtons/Button_Attack"
+			},
+			"inventory": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "BunkerBattle:UICanvas/UI_MainScreen/Root/SecondaryButtonsPanel/Button_Backpack"
+			},
+			"store": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "BunkerBattle:UICanvas/UI_MainScreen/Root/SecondaryButtonsPanel/Button_Store"
+			},
+			"blueprints": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "BunkerBattle:UICanvas/UI_MainScreen/Root/SecondaryButtonsPanel/Button_Craft"
+			},
+			"second_slot": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "BunkerBattle:UICanvas/UI_MainScreen/Root/NormalModePanel/Panel_MainButtons/Button_QuickSlot"
+			},
+			"third_slot": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "BunkerBattle:UICanvas/UI_MainScreen/Root/NormalModePanel/Panel_MainButtons/Button_QuickSlot_second"
+			},
+			"revive": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "BunkerBattle:UIOverlayCanvas/DeathDialog/Root/ButtonRevive"
+			},
+			"learn": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "BunkerBattle:UICanvas/CraftDialog/Root/Content/DescriptionPanel/ButtonLearn"
+			},
+			"learn_ok": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "BunkerBattle:UIOverlayCanvas/RecipeLearnedDialog/Root/ButtonOk"
+			},
+			"craft_close": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "BunkerBattle:UICanvas/CraftDialog/Root/ButtonClose"
+			},
+			"hard_mode_confirim": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "BunkerBattle:UICanvas/HardModeTerminalDialog/Root/RootContent/ButtonConfirm"
+			},
+			"hard_mode_exit": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "BunkerBattle:UICanvas/HardModeTerminalDialog/Root/RootContent/ButtonExit"
+			},
+			"hard_mode_close": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "BunkerBattle:UICanvas/HardModeTerminalDialog/Root/ButtonClose"
+			},
+			"shower_close": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "BunkerBattle:UIOverlayCanvas/ShowerDialog/Root/ButtonsPanel/ButtonCancel"
+			},
+			"shower_ok": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "BunkerBattle:UIOverlayCanvas/ShowerDialog/Root/ButtonsPanel/ButtonOk"
+			}
+		},
+		"cells": {
+			"lift_button": {
+				"start_index": 0,
+				"format": "{0}/Slot{1}/Button",
+				"path": "BunkerBattle:UICanvas/UI_LiftPanel/Root"
+			},
+			"resipes": {
+				"start_index": 0,
+				"format": "{0}{1}/Background",
+				"path": "BunkerBattle:UICanvas/CraftDialog/Root/Content/RecipesPanel/Scroll View/Viewport/ItemsPanel/CellCraft"
+			}
+		},
+		"content": {
+			"health_bar_target": {
+				"type_search": "cache_search",
+				"path": "BunkerBattle:UICanvas/UI_MainScreen/Root/EnemyHealthPanel"
+			},
+			"health_bar_player": {
+				"type_search": "cache_search",
+				"path": "BunkerBattle:UICanvas/UI_MainScreen/Root/HealthPanel"
+			},
+			"notify_1": {
+				"type_search": "cache_search",
+				"path": "BunkerBattle:UICanvas/FollowStats/PlayerRoot/Notify1"
+			},
+			"notify_2": {
+				"type_search": "cache_search",
+				"path": "BunkerBattle:UICanvas/FollowStats/PlayerRoot/Notify2"
+			},
+			"lift_panel": {
+				"type_search": "cache_search",
+				"path": "BunkerBattle:UICanvas/UI_LiftPanel/Root"
+			},
+			"craft_dialog": {
+				"path": "BunkerBattle:UICanvas/CraftDialog/Root"
+			},
+			"lift_button_count": {
+				"path": "BunkerBattle:UICanvas/UI_LiftPanel/Root"
+			},
+			"resipes_count": {
+				"path": "BunkerBattle:UICanvas/CraftDialog/Root/Content/RecipesPanel/Scroll View/Viewport/ItemsPanel"
+			},
+			"hard_mode_terminal_dialog": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "BunkerBattle:UICanvas/HardModeTerminalDialog/Root"
+			},
+			"locations": {
+				"type_search": "cache_search",
+				"path": "Battle:Location"
+			},
+			"shower_dialog": {
+				"type_search": "cache_search",
+				"path": "BunkerBattle:UIOverlayCanvas/ShowerDialog/Root"
+			},
+			"health_bar_target_active": {
+				"type_search": "cache_search",
+				"path": "BunkerBattle:UICanvas/UI_MainScreen/Root/EnemyHealthPanel/Bar_Object"
+			},
+			"chest_progress_bar": {
+				"type_search": "cache_search",
+				"path": "BunkerBattle:UIHudCanvas/ChestProgressBar(Clone)/Root"
+			}
+		}
+	},
+	"sync_inventory": {
+		"buttons": {
+			"use": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "SyncInventory:UICanvas/UI_SyncInventoryPanel/Root/InventoryPanels/BackpackPanel/Root/ButtonsPanel/ButtonUse"
+			},
+			"split": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "SyncInventory:UICanvas/UI_SyncInventoryPanel/Root/InventoryPanels/BackpackPanel/Root/ButtonsPanel/ButtonSplit"
+			},
+			"delete": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "SyncInventory:UICanvas/UI_SyncInventoryPanel/Root/InventoryPanels/BackpackPanel/Root/ButtonsPanel/ButtonDelete"
+			},
+			"close": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "SyncInventory:UICanvas/UI_SyncInventoryPanel/Root/ButtonClose"
+			}
+		},
+		"cells": {
+			"loot": {
+				"start_index": 0,
+				"format": "{0}{1}",
+				"path": "SyncInventory:UICanvas/UI_SyncInventoryPanel/Root/InventoryPanels/LootPanel/Scroll View/Viewport/Content/ItemsPanel/Cell"
+			},
+			"backpack": {
+				"start_index": 0,
+				"format": "{0}{1}",
+				"path": "SyncInventory:UICanvas/UI_SyncInventoryPanel/Root/InventoryPanels/BackpackPanel/Root/Backpack/Cell"
+			},
+			"pockets": {
+				"start_index": 0,
+				"format": "{0}{1}",
+				"path": "SyncInventory:UICanvas/UI_SyncInventoryPanel/Root/InventoryPanels/BackpackPanel/Root/Pockets/Cell"
+			}
+		},
+		"content": {
+			"health": {
+				"path": "SyncInventory:UICanvas/UI_SyncInventoryPanel/Root/InventoryPanels/StatsPanel/PanelTop/HP_Panel"
+			},
+			"food": {
+				"path": "SyncInventory:UICanvas/UI_SyncInventoryPanel/Root/InventoryPanels/StatsPanel/Statuses/Food/Text"
+			},
+			"water": {
+				"path": "SyncInventory:UICanvas/UI_SyncInventoryPanel/Root/InventoryPanels/StatsPanel/Statuses/Water/Text"
+			},
+			"dialog": {
+				"path": "SyncInventory:UICanvas/UI_SyncInventoryPanel/Root"
+			},
+			"loot_count": {
+				"path": "SyncInventory:UICanvas/UI_SyncInventoryPanel/Root/InventoryPanels/LootPanel/Scroll View/Viewport/Content/ItemsPanel"
+			},
+			"backpack_count": {
+				"path": "SyncInventory:UICanvas/UI_SyncInventoryPanel/Root/InventoryPanels/BackpackPanel/Root/Backpack"
+			},
+			"pockets_count": {
+				"path": "SyncInventory:UICanvas/UI_SyncInventoryPanel/Root/InventoryPanels/BackpackPanel/Root/Pockets"
+			}
+		}
+	},
+	"sync": {
+		"buttons": {
+			"use": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Sync:UICanvas/UI_SyncMainScreen/Root/BottomRightPanel/Button_Use"
+			},
+			"attack": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Sync:UICanvas/UI_SyncMainScreen/Root/BottomRightPanel/Button_Attack"
+			},
+			"inventory": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Sync:UICanvas/UI_SyncMainScreen/Root/BottomRightPanel/Button_Backpack"
+			},
+			"blueprints": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Sync:UICanvas/UI_SyncMainScreen/Root/BottomRightPanel/Button_Craft"
+			},
+			"store": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "Sync:UICanvas/UI_SyncMainScreen/Root/BottomRightPanel/Button_Store"
+			},
+			"revive": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "Sync:UIOverlayCanvas/DeathDialog/Root/ButtonRevive"
+			}
+		},
+		"cells": {},
+		"content": {
+			"health_bar_target": {
+				"type_search": "cache_search",
+				"path": "Sync:UICanvas/SyncFollowStats/PlayerRoot/Notify1"
+			},
+			"health_bar_player": {
+				"type_search": "cache_search",
+				"path": "Battle:UICanvas/UI_MainScreen/Root/Panel_Health"
+			},
+			"notify_1": {
+				"type_search": "cache_search",
+				"path": "Sync:UICanvas/SyncFollowStats/PlayerRoot/Notify1"
+			},
+			"notify_2": {
+				"type_search": "cache_search",
+				"path": "Sync:UICanvas/SyncFollowStats/PlayerRoot/Notify2"
+			}
+		}
+	},
+	"sync_home": {
+		"buttons": {
+			"use": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "SyncHome:UICanvas/UI_SyncMainScreen/Root/BottomRightPanel/Button_Use"
+			},
+			"attack": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "SyncHome:UICanvas/UI_SyncMainScreen/Root/BottomRightPanel/Button_Attack"
+			},
+			"inventory": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "SyncHome:UICanvas/UI_SyncMainScreen/Root/BottomRightPanel/Button_Backpack"
+			},
+			"blueprints": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "SyncHome:UICanvas/UI_SyncMainScreen/Root/BottomRightPanel/Button_Craft"
+			},
+			"store": {
+				"type_search": "cache_search",
+				"type": "up_down",
+				"path": "SyncHome:UICanvas/UI_SyncMainScreen/Root/BottomRightPanel/Button_Store"
+			},
+			"go_to_locations": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "SyncHome:UICanvas/TerminalMapDialog/Root/Content/InfoView/ButtonGo"
+			},
+			"storage_get_equip": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "SyncHome:UIOverlayCanvas/StorageDialog/Root/ContentPanel/GetEquipButton"
+			},
+			"storage_personal": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "SyncHome:UIOverlayCanvas/StorageDialog/Root/ContentPanel/PersonalStorageButton"
+			},
+			"storage_clan": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "SyncHome:UIOverlayCanvas/StorageDialog/Root/ContentPanel/ClanStorageButton"
+			}
+		},
+		"cells": {},
+		"content": {
+			"health_bar_target": {
+				"type_search": "cache_search",
+				"path": "SyncHome:UICanvas/UI_SyncMainScreen/Root/Panel_EnemyHealth"
+			},
+			"health_bar_player": {
+				"type_search": "cache_search",
+				"path": "SyncHome:UICanvas/UI_SyncMainScreen/Root/Panel_Health"
+			},
+			"notify_1": {
+				"type_search": "cache_search",
+				"path": "SyncHome:UICanvas/SyncFollowStats/PlayerRoot/Notify1"
+			},
+			"notify_2": {
+				"type_search": "cache_search",
+				"path": "SyncHome:UICanvas/SyncFollowStats/PlayerRoot/Notify2"
+			},
+			"sync_locations_terminal_dialog": {
+				"type_search": "cache_search",
+				"path": "SyncHome:UICanvas/TerminalMapDialog/Root"
+			},
+			"sync_locations_terminal": {
+				"type_search": "cache_search",
+				"path": "SyncHome:UICanvas/TerminalMapDialog/Root/Content/InfoView"
+			},
+			"locations": {
+				"type_search": "cache_search",
+				"path": "SyncHome:UICanvas/TerminalMapDialog/Root/Content/Grid"
+			},
+			"storage_dialog": {
+				"type_search": "cache_search",
+				"path": "SyncHome:UIOverlayCanvas/StorageDialog/Root"
+			}
+		}
+	},
+	"sync_craft": {
+		"buttons": {
+			"craft": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "SyncHome:UICanvas/SyncCraftDialog/Root/Content/DescriptionPanel/ButtonCraft"
+			},
+			"learn_ok": {
+				"type_search": "cache_search",
+				"type": "button",
+				"path": "SyncHome:UIOverlayCanvas/RecipeLearnedDialog/Root/ButtonOk"
+			},
+			"close": {
+				"type_search": "cache_search",
+				"type": "pointer_button",
+				"path": "SyncHome:UICanvas/SyncCraftDialog/Root/ButtonClose"
+			}
+		},
+		"cells": {
+			"resipes": {
+				"start_index": 0,
+				"format": "{0}{1}",
+				"path": "SyncHome:UICanvas/SyncCraftDialog/Root/Content/RecipesPanel/Scroll View/Viewport/ItemsPanel/CellCraft"
+			}
+		},
+		"content": {
+			"dialog": {
+				"path": "SyncHome:UICanvas/SyncCraftDialog/Root"
+			},
+			"resipes_count": {
+				"path": "SyncHome:UICanvas/SyncCraftDialog/Root/Content/RecipesPanel/Scroll View/Viewport/ItemsPanel"
+			}
+		}
+	}
+}

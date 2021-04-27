@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{53F313BA-BD1E-42FE-9B2D-8C997FB0DC85}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UiTest</RootNamespace>
+    <AssemblyName>UiTest</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <LangVersion>default</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Library\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Library\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'MacOs|AnyCPU' ">
+    <OutputPath>bin\MacOs\</OutputPath>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Framework.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Framework.Json, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\Framework.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\ThirdParty\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UiTest\ButtonsGroup\ButtonsGroup.cs" />
+    <Compile Include="UiTest\ButtonsGroup\IButtonsGroup.cs" />
+    <Compile Include="UiTest\Buttons\IUiTestButton.cs" />
+    <Compile Include="UiTest\Buttons\IUiUpDownTestButton.cs" />
+    <Compile Include="UiTest\Buttons\UiTestButton.cs" />
+    <Compile Include="UiTest\Buttons\UiTestDoubleClick.cs" />
+    <Compile Include="UiTest\Buttons\UiTestPointerButton.cs" />
+    <Compile Include="UiTest\Buttons\UiTestUpDownButton.cs" />
+    <Compile Include="UiTest\Cells\IUiTestCells.cs" />
+    <Compile Include="UiTest\Cells\UiTestCells.cs" />
+    <Compile Include="UiTest\Checker\CellCountChecker.cs" />
+    <Compile Include="UiTest\Checker\CountIsEmptyChecker.cs" />
+    <Compile Include="UiTest\Checker\IconEmptyChecker.cs" />
+    <Compile Include="UiTest\Checker\IUiTestChecker.cs" />
+    <Compile Include="UiTest\Checker\Player\Inventory\IsAxeInInventoryChecker.cs" />
+    <Compile Include="UiTest\Checker\TreeCountChecker.cs" />
+    <Compile Include="UiTest\Checker\TreeFelledChecker.cs" />
+    <Compile Include="UiTest\Checker\UseActiveChecker.cs" />
+    <Compile Include="UiTest\Checker\UseTargetChecker.cs" />
+    <Compile Include="UiTest\Context\Consts\Home.cs" />
+    <Compile Include="UiTest\Context\Consts\Locations.cs" />
+    <Compile Include="UiTest\Context\Consts\Start\StartCell.cs" />
+    <Compile Include="UiTest\Context\Consts\Start\Start.cs" />
+    <Compile Include="UiTest\Context\Consts\Start\StartButton.cs" />
+    <Compile Include="UiTest\Context\Consts\Start\StartContent.cs" />
+    <Compile Include="UiTest\Context\IScenes.cs" />
+    <Compile Include="UiTest\Context\NodeHelper.cs" />
+    <Compile Include="UiTest\Context\Scenes.cs" />
+    <Compile Include="UiTest\Context\WaitForSecond.cs" />
+    <Compile Include="UiTest\Coroutine\CompleteStatus.cs" />
+    <Compile Include="UiTest\Coroutine\IStatus.cs" />
+    <Compile Include="UiTest\Coroutine\ITestRoutine.cs" />
+    <Compile Include="UiTest\Coroutine\ITestScheduler.cs" />
+    <Compile Include="UiTest\Coroutine\RunningStatus.cs" />
+    <Compile Include="UiTest\Coroutine\Scheduler.cs" />
+    <Compile Include="UiTest\Coroutine\Status.cs" />
+    <Compile Include="UiTest\Coroutine\StopStatus.cs" />
+    <Compile Include="UiTest\Coroutine\UiTestCoroutine.cs" />
+    <Compile Include="UiTest\Shop\TestFail.cs" />
+    <Compile Include="UiTest\TestCases\Player\Inventory\TestCase1_InventoryOpen.cs" />
+    <Compile Include="UiTest\TestCases\Trees\TestCase02_HarvestTree.cs" />
+    <Compile Include="UiTest\TestCommands\Commands.cs" />
+    <Compile Include="UiTest\TestCommands\CommandsId.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\AndCheckCommand.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\CellSearchByIconCommand.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\CellSearchByIconNewCommand.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\CheckAndUseCommand.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\ClickCellCommand.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\CloseDialogCommand.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\DragAndDropCommand.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\FindAndGoToSingleObjectCommand.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\IUiTestCommand.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\OrCheckerCommand.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\PlayerMoveCommand.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\ScreenshotCommand.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\UseButtonClickCommand.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\WaitDialogCommand.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\WaitForSecondsCommand.cs" />
+    <Compile Include="UiTest\TestCommands\Commands\WaitItemActiveButtonCommand.cs" />
+    <Compile Include="UiTest\Context\Consts\Main\Main.cs" />
+    <Compile Include="UiTest\Context\Consts\Main\MainButton.cs" />
+    <Compile Include="UiTest\Context\Consts\Main\BattleCell.cs" />
+    <Compile Include="UiTest\Context\Consts\Main\MainContent.cs" />
+    <Compile Include="UiTest\Context\Consts\Inventory\Inventory.cs" />
+    <Compile Include="UiTest\Context\Consts\Inventory\InventoryButton.cs" />
+    <Compile Include="UiTest\Context\Consts\Inventory\InventoryCell.cs" />
+    <Compile Include="UiTest\Context\Consts\Inventory\InventoryContent.cs" />
+    <Compile Include="UiTest\Context\Consts\Screens.cs" />
+    <Compile Include="UiTest\Context\Consts\StringParam.cs" />
+    <Compile Include="UiTest\Results\AndCheckerResult.cs" />
+    <Compile Include="UiTest\Results\NumberCommandResult.cs" />
+    <Compile Include="UiTest\Results\OrCheckResult.cs" />
+    <Compile Include="UiTest\TestCases\UiSimpleTestCase.cs" />
+    <Compile Include="UiTest\TestCases\UiStepsTestCase.cs" />
+    <Compile Include="UiTest\Content\IUiTestContent.cs" />
+    <Compile Include="UiTest\Content\UiTestContent.cs" />
+    <Compile Include="UiTest\Context\ITemporaryData.cs" />
+    <Compile Include="UiTest\Context\IUiTestContext.cs" />
+    <Compile Include="UiTest\Context\TemporaryData.cs" />
+    <Compile Include="UiTest\Context\UiTestContext.cs" />
+    <Compile Include="UiTest\Context\UiTestHelper.cs" />
+    <Compile Include="UiTest\ExitPosition\ExitPositionData.cs" />
+    <Compile Include="UiTest\ExitPosition\ExitPositions.cs" />
+    <Compile Include="UiTest\ExitPosition\IExitPositions.cs" />
+    <Compile Include="UiTest\ObjectPosition\IUiTestObjectPosition.cs" />
+    <Compile Include="UiTest\ObjectPosition\UiTestObjectPosition.cs" />
+    <Compile Include="UiTest\ObjectPosition\UiTestObjectPositionData.cs" />
+    <Compile Include="UiTest\Results\CellSearchByIconResult.cs" />
+    <Compile Include="UiTest\Results\CheckResult.cs" />
+    <Compile Include="UiTest\Results\FindCharacterResult.cs" />
+    <Compile Include="UiTest\Results\FindObjectResult.cs" />
+    <Compile Include="UiTest\Results\ICommandResult.cs" />
+    <Compile Include="UiTest\Results\PlayerMoveResult.cs" />
+    <Compile Include="UiTest\Results\PositionResult.cs" />
+    <Compile Include="UiTest\Results\ResultData.cs" />
+    <Compile Include="UiTest\Results\ShopCommandResult.cs" />
+    <Compile Include="UiTest\Results\SimpleCommandResult.cs" />
+    <Compile Include="UiTest\Results\WaitItemResult.cs" />
+    <Compile Include="UiTest\Runner\UiTestRunner.cs" />
+    <Compile Include="UiTest\TestSteps\ExampleStep.cs" />
+    <Compile Include="UiTest\TestSteps\IUiTestStepBase.cs" />
+    <Compile Include="UiTest\TestSteps\Player\Inventory\FindItemStep.cs" />
+    <Compile Include="UiTest\TestSteps\Player\Inventory\InventoryCloseStep.cs" />
+    <Compile Include="UiTest\TestSteps\Player\Inventory\InventoryGetAllItems.cs" />
+    <Compile Include="UiTest\TestSteps\Player\Inventory\InventoryMoveItemStep.cs" />
+    <Compile Include="UiTest\TestSteps\Player\Inventory\InventoryOpenStep.cs" />
+    <Compile Include="UiTest\TestSteps\Player\PlayerMoveSawmillStep.cs" />
+    <Compile Include="UiTest\TestSteps\Steps.cs" />
+    <Compile Include="UiTest\TestSteps\TestStepState.cs" />
+    <Compile Include="UiTest\TestSteps\Trees\TreesCheckHarvestRequiresAxeStep.cs" />
+    <Compile Include="UiTest\TestSteps\Trees\TreesGoToClosestTreeStep.cs" />
+    <Compile Include="UiTest\TestSteps\Trees\TreesFullyHarvestTreeStep.cs" />
+    <Compile Include="UiTest\TestSteps\Trees\TreesHarvestTree1TimeStep.cs" />
+    <Compile Include="UiTest\TestSteps\Trees\TreesHarvestWithoutAxeStep.cs" />
+    <Compile Include="UiTest\TestSteps\UiTestStepBase.cs" />
+    <Compile Include="UiTest\Shop\IUiTestShop.cs" />
+    <Compile Include="UiTest\Shop\IUiTestShopObjects.cs" />
+    <Compile Include="UiTest\Shop\UiTestShop.cs" />
+    <Compile Include="UiTest\Shop\UiTestShopObjects.cs" />
+    <Compile Include="UiTest\Sprite\IUiTestSprite.cs" />
+    <Compile Include="UiTest\Sprite\UiTestSprite.cs" />
+    <Compile Include="UiTest\Sprite\UiTestSpriteData.cs" />
+    <Compile Include="UiTest\TestCases\IUiTestCase.cs" />
+    <Compile Include="UiTest\TestCases\IUiTestCases.cs" />
+    <Compile Include="UiTest\TestCases\TestCase0.cs" />
+    <Compile Include="UiTest\TestCases\UiTestCases.cs" />
+    <Compile Include="UiTest\TouchInput\IUiTestTouchInput.cs" />
+    <Compile Include="UiTest\TouchInput\UiTestTouchInput.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\InterfaceUiTest\InterfaceUiTestLib\InterfaceUiTestLib.csproj">
+      <Project>{cce9fc11-b704-4db6-aa58-055e1f1263d1}</Project>
+      <Name>InterfaceUiTestLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tests.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UiTest\Checker\Trees" />
+    <Folder Include="UiTest\Checker\WorkbenchSawmill" />
+    <Folder Include="UiTest\TestCases\Player" />
+    <Folder Include="UiTest\TestCases\TestCases" />
+    <Folder Include="UiTest\TestCases\WorkbenchSawmill" />
+    <Folder Include="UiTest\TestSteps\WorkbenchSawmill" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PostBuildEvent> "$(ProjectDir)..\..\replace.bat" </PostBuildEvent>
+  </PropertyGroup>
+
+</Project>
