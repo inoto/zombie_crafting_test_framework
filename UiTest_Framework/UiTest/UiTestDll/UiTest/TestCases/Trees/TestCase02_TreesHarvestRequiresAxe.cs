@@ -11,11 +11,9 @@ namespace Assets.UiTest.Runner
 	{
 		protected override IEnumerator<IUiTestStepBase> Condition()
 		{
-			yield return Steps.ExampleStep();
-			// yield return Steps.TreesHarvestTree1TimeStep();
-			// yield return Steps.TreesHarvestTree1TimeStep();
-			// yield return Steps.TreesFullyHarvestTreeStep();
-			yield return Steps.TreesHarvestWithoutAxeStep();
+			yield return Steps.WaitGameLoadedStep();
+			yield return Steps.InventoryResetStep();
+			yield return new TreesHarvestWithoutAxeStep();
 		}
 	}
 }

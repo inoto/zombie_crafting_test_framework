@@ -287,6 +287,11 @@ namespace Assets.UiTest.Context
             return null;
         }
 
+        private GameObject FindInventoryCellByNameInternal()
+        {
+            return null;
+        }
+
         public GameObject FindCellInInventoriesBySpriteName(string spriteName, HashSet<string> inventoryIds)
         {
             HashSet<GameObject> hashGo = new HashSet<GameObject>();
@@ -298,6 +303,11 @@ namespace Assets.UiTest.Context
             return FindInventoryCellBySpriteName(spriteName, hashGo);
         }
 
+        public GameObject FindInventoryCellByIndex(int index, string inventoryId)
+        {
+            GameObject invGO = this.Inventory.GetContent(inventoryId).GetGO();
+            return invGO.transform.GetChild(index).gameObject;
+        }
 
         public HashSet<string> GetSpriteCategory(string spriteCategoryId)
         {

@@ -21,6 +21,16 @@ namespace Assets.UiTest.TestSteps
             return new ExampleStep();
         }
 
+        public IUiTestStepBase WaitGameLoadedStep()
+        {
+            return new WaitGameLoadedStep();
+        }
+
+        public IUiTestStepBase InventoryResetStep()
+        {
+            return new InventoryResetStep();
+        }
+
         public IUiTestStepBase InventoryOpenStep()
         {
             return new InventoryOpenStep();

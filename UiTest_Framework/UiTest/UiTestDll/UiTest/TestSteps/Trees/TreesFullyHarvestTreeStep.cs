@@ -17,7 +17,7 @@ namespace Assets.UiTest.TestSteps.Trees
 
 		protected override IEnumerator OnRun()
 		{
-			int treeIndex = 0;
+			int treeIndex = 2;
 			var trees = Cheats.FindTree();
 			
 			var moveResult = new ResultData<PlayerMoveResult>();

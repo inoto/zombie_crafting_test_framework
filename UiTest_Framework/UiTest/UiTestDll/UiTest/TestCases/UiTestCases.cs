@@ -12,6 +12,22 @@ namespace Assets.UiTest.Runner
             // _tests.Add(0, new TestCase0());
             // _tests.Add(i++, new TestCase1_InventoryOpen());
             _tests.Add(i++, new TestCase02_HarvestTree());
+            _tests.Add(i++, new TestCase03_TreesHarvestWithLessThen3Actions());
+            _tests.Add(i++, new TestCase04_TreesHarvestWith3Actions());
+            _tests.Add(i++, new TestCase05_TreesUnfocusAfterHarvest());
+            // _tests.Add(i++, new TestCase02_HarvestTree());
+            // _tests.Add(i++, new TestCase02_HarvestTree());
+            // _tests.Add(i++, new TestCase02_HarvestTree());
+            // _tests.Add(i++, new TestCase02_HarvestTree());
+            // _tests.Add(i++, new TestCase02_HarvestTree());
+            // _tests.Add(i++, new TestCase02_HarvestTree());
+            // _tests.Add(i++, new TestCase02_HarvestTree());
+            // _tests.Add(i++, new TestCase02_HarvestTree());
+            // _tests.Add(i++, new TestCase02_HarvestTree());
+            // _tests.Add(i++, new TestCase02_HarvestTree());
+            // _tests.Add(i++, new TestCase02_HarvestTree());
+            // _tests.Add(i++, new TestCase02_HarvestTree());
+            // _tests.Add(i++, new TestCase02_HarvestTree());
         }
 
         public IUiTestCase GetTestCase(int test)

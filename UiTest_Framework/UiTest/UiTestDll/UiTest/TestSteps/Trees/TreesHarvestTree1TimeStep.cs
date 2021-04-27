@@ -18,16 +18,17 @@ namespace Assets.UiTest.TestSteps.Trees
 
 		protected override IEnumerator OnRun()
 		{
+			int treeIndex = 1;
 			var trees = Cheats.FindTree();
 			var moveResult = new ResultData<PlayerMoveResult>();
-			yield return Commands.PlayerMoveCommand(trees[0].transform.position, moveResult);
+			yield return Commands.PlayerMoveCommand(trees[treeIndex].transform.position, moveResult);
 			var simpleResult = new ResultData<SimpleCommandResult>();
 			yield return Commands.WaitForSecondsCommand(1, simpleResult);
 			
 			yield return Commands.UseButtonClickCommand(Screens.Main.Button.Use, new ResultData<SimpleCommandResult>());
 			yield return Commands.WaitForSecondsCommand(1, new ResultData<SimpleCommandResult>());
 			
-			if (new TreeFelledChecker(Context, trees[0]).Check() == true)
+			if (new TreeFelledChecker(Context, trees[treeIndex]).Check() == true)
 			{
 				Fail($"Дерево срублено после 1 заруба, хотя должно быть срублено за 3 заруба.");
 			}
@@ -42,7 +43,7 @@ namespace Assets.UiTest.TestSteps.Trees
 				Fail($"Кнопка действия не активна, хотя должна быть.");
 			}
 
-			if (new UseTargetChecker(Context, trees[0].transform.position).Check() == false)
+			if (new UseTargetChecker(Context, trees[treeIndex].transform.position).Check() == false)
 			{
 				Fail($"Дерево не в таргете, хотя должно быть.");
 			}

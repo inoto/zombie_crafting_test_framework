@@ -17,7 +17,7 @@ namespace Assets.UiTest.TestSteps
         }
         public TestStepState CurrentState { get; private set; }
         public abstract string Id { get; }
-        public abstract double TimeOut { get; }
+        public virtual double TimeOut => 300;
 
         protected static IUiTestContext Context;
         private ITestRoutine _coroutine;
@@ -33,7 +33,10 @@ namespace Assets.UiTest.TestSteps
             
         }
 
-        protected abstract Dictionary<string, string> GetArgs();
+        protected virtual Dictionary<string, string> GetArgs()
+        {
+            return new Dictionary<string, string>();
+        }
 
         public void Run()
         {

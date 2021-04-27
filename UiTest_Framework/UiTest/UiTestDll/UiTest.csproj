@@ -239,8 +239,37 @@
     <Compile Include="UiTest\Coroutine\StopStatus.cs" />
     <Compile Include="UiTest\Coroutine\UiTestCoroutine.cs" />
     <Compile Include="UiTest\Shop\TestFail.cs" />
-    <Compile Include="UiTest\TestCases\Player\Inventory\TestCase1_InventoryOpen.cs" />
-    <Compile Include="UiTest\TestCases\Trees\TestCase02_HarvestTree.cs" />
+    <Compile Include="UiTest\TestCases\Player\Inventory\TestCase01_PlayerInventoryOpen.cs" />
+    <Compile Include="UiTest\TestCases\Player\Inventory\TestCase10_PlayerInventoryClose.cs" />
+    <Compile Include="UiTest\TestCases\Player\Inventory\TestCase12_PlayerInventoryMoveItem.cs" />
+    <Compile Include="UiTest\TestCases\Player\Inventory\TestCase11_PlayerInventoryRemoveItem.cs" />
+    <Compile Include="UiTest\TestCases\Player\Inventory\TestCase13_PlayerInventoryAllSlotsAvailableToPutItem.cs" />
+    <Compile Include="UiTest\TestCases\Player\Inventory\TestCase14_PlayerInventoryItemStacking.cs" />
+    <Compile Include="UiTest\TestCases\Player\Inventory\TestCase15_PlayerInventoryItemMaxStack.cs" />
+    <Compile Include="UiTest\TestCases\Player\Inventory\TestCase16_PlayerInventoryIsFull.cs" />
+    <Compile Include="UiTest\TestCases\Player\Inventory\TestCase17_PlayerInventoryItemNonStackable.cs" />
+    <Compile Include="UiTest\TestCases\Player\TestCase06_PlayerMoveWithDpad.cs" />
+    <Compile Include="UiTest\TestCases\Player\TestCase07_PlayerFocusOnObject.cs" />
+    <Compile Include="UiTest\TestCases\Player\TestCase08_PlayerChangeFocusWithinAliveObjects.cs" />
+    <Compile Include="UiTest\TestCases\Player\TestCase09_PlayerEndFocusWhenLeaveObject.cs" />
+    <Compile Include="UiTest\TestCases\Trees\TestCase02_TreesHarvestRequiresAxe.cs" />
+    <Compile Include="UiTest\TestCases\Trees\TestCase03_TreesHarvestWithLessThen3Actions.cs" />
+    <Compile Include="UiTest\TestCases\Trees\TestCase04_TreesHarvestWith3Actions.cs" />
+    <Compile Include="UiTest\TestCases\Trees\TestCase05_TreesUnfocusAfterHarvest.cs" />
+    <Compile Include="UiTest\TestCases\WorkbenchSawmill\TestCase18_WorkbenchSawmillOpen.cs" />
+    <Compile Include="UiTest\TestCases\WorkbenchSawmill\TestCase19_WorkbenchSawmillClose.cs" />
+    <Compile Include="UiTest\TestCases\WorkbenchSawmill\TestCase20_WorkbenchSawmillMaterialsProcessing.cs" />
+    <Compile Include="UiTest\TestCases\WorkbenchSawmill\TestCase21_WorkbenchSawmillMaterialsProcessingResult.cs" />
+    <Compile Include="UiTest\TestCases\WorkbenchSawmill\TestCase22_WorkbenchSawmillMaterialsProcessingProgress.cs" />
+    <Compile Include="UiTest\TestCases\WorkbenchSawmill\TestCase23_WorkbenchSawmillMaterialsProcessingResultStacking.cs" />
+    <Compile Include="UiTest\TestCases\WorkbenchSawmill\TestCase24_WorkbenchSawmillMaterialsProcessingRemoveRowDuringProgress.cs" />
+    <Compile Include="UiTest\TestCases\WorkbenchSawmill\TestCase25_WorkbenchSawmillMaterialsProcessingUseWrongResultItemDuringProgress.cs" />
+    <Compile Include="UiTest\TestCases\WorkbenchSawmill\TestCase26_WorkbenchSawmillMaterialsProcessingSkipProgress.cs" />
+    <Compile Include="UiTest\TestCases\WorkbenchSawmill\TestCase27_WorkbenchSawmillMaterialsProcessingSkipProgressNotEnoughMoney.cs" />
+    <Compile Include="UiTest\TestCases\WorkbenchSawmill\TestCase28_WorkbenchSawmillMaterialsProcessingCancelProgress.cs" />
+    <Compile Include="UiTest\TestCases\WorkbenchSawmill\TestCase29_WorkbenchSawmillMaterialsProcessingResultMaxStack.cs" />
+    <Compile Include="UiTest\TestCases\WorkbenchSawmill\TestCase30_WorkbenchSawmillMaterialsProcessingProgressSchemaItemsOnly.cs" />
+    <Compile Include="UiTest\TestCases\WorkbenchSawmill\TestCase31_WorkbenchSawmillMaterialsProcessingSkipProgressResetProgress.cs" />
     <Compile Include="UiTest\TestCommands\Commands.cs" />
     <Compile Include="UiTest\TestCommands\CommandsId.cs" />
     <Compile Include="UiTest\TestCommands\Commands\AndCheckCommand.cs" />
@@ -299,6 +328,7 @@
     <Compile Include="UiTest\Results\SimpleCommandResult.cs" />
     <Compile Include="UiTest\Results\WaitItemResult.cs" />
     <Compile Include="UiTest\Runner\UiTestRunner.cs" />
+    <Compile Include="UiTest\TestSteps\Common\WaitGameLoadedStep.cs" />
     <Compile Include="UiTest\TestSteps\ExampleStep.cs" />
     <Compile Include="UiTest\TestSteps\IUiTestStepBase.cs" />
     <Compile Include="UiTest\TestSteps\Player\Inventory\FindItemStep.cs" />
@@ -306,6 +336,7 @@
     <Compile Include="UiTest\TestSteps\Player\Inventory\InventoryGetAllItems.cs" />
     <Compile Include="UiTest\TestSteps\Player\Inventory\InventoryMoveItemStep.cs" />
     <Compile Include="UiTest\TestSteps\Player\Inventory\InventoryOpenStep.cs" />
+    <Compile Include="UiTest\TestSteps\Player\Inventory\InventoryResetStep.cs" />
     <Compile Include="UiTest\TestSteps\Player\PlayerMoveSawmillStep.cs" />
     <Compile Include="UiTest\TestSteps\Steps.cs" />
     <Compile Include="UiTest\TestSteps\TestStepState.cs" />
@@ -341,9 +372,7 @@
   <ItemGroup>
     <Folder Include="UiTest\Checker\Trees" />
     <Folder Include="UiTest\Checker\WorkbenchSawmill" />
-    <Folder Include="UiTest\TestCases\Player" />
     <Folder Include="UiTest\TestCases\TestCases" />
-    <Folder Include="UiTest\TestCases\WorkbenchSawmill" />
     <Folder Include="UiTest\TestSteps\WorkbenchSawmill" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
