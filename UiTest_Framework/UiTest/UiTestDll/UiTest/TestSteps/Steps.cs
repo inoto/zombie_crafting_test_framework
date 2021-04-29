@@ -41,24 +41,19 @@ namespace Assets.UiTest.TestSteps
             return new InventoryCloseStep();
         }
         
-        public IUiTestStepBase InventoryMoveItemStep()
-        {
-            return new InventoryMoveItemStep();
-        }
-        
-        public IUiTestStepBase InventoryGetAllItems()
-        {
-            return new InventoryMoveItemStep();
-        }
-        
         public IUiTestStepBase PlayerMoveSawmillStep()
         {
             return new PlayerMoveSawmillStep();
         }
 
-        public IUiTestStepBase FindItemStep()
+        public IUiTestStepBase WorkbenchSawmillOpenStep()
         {
-            return new FindItemStep();
+            return new WorkbenchSawmill_OpenStep();
+        }
+        
+        public IUiTestStepBase InventoryGetAllItems()
+        {
+            return new InventoryMoveItemStep();
         }
 
     }

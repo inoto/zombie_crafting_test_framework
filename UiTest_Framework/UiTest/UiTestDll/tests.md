@@ -18,7 +18,7 @@
 # игрок
 1. Игрок может перемещаться использую джойстик
 2. При окончании фокуса на объекте (например срубки дерева), фокус должен перейти на другой объект (например на другое дерево)
-3. 
+3. кнопка действия активна/не активна
 
 ## инвентарь
 1. окно инвентаря показывается
@@ -59,8 +59,12 @@
 6. (спорно, надо обсуждать) При попадании стакающегося предмета в инвентарь предмет кладётся в отдельный слот. Уже находящийся предмет должен быть помещён не в первую свободную ячейку.
 7. Иногда дерево не срубается по окончанию рубки.
 8. Ускорениу обработки дерева работает даже если не хватает монет. При этом монеты в инвентаре уходят в минус.
-9. Cлоты инвентаря [16, 17, 21, 22] ведут себя странно - когда переносишь туда предмет, то предмет остаётся на начальной позиции. При этом ячейка становится занята, но показывается как пустая. Происходит как будто клонирование
-10. Окно инвентаря не закрывается. Blocker! Пропадают предметы из инвентаря после перетаскивания в другой слот. А потом не закрывается окно инвентаря.
+9. Cлоты инвентаря [16, 17, 21, 22] ведут себя странно - эксепшн при попытке обновить контент ячейки. когда переносишь туда предмет, то предмет остаётся на начальной позиции. При этом ячейка становится занята, но показывается как пустая. Происходит как будто клонирование
+
+{"tag":"info","depth":0,"time":"2021-4-29 01:00:45","data":{"name":"Final Error","traceback":"Exception: NullReferenceException: Object reference not set to an instance of an object\nCore.Controllers.CellController.RefreshContent () (at <31bdb29d12e9483b91fc3f056fe35760>:0)\nCore.Controllers.CellController.OnCellChanged () (at <31bdb29d12e9483b91fc3f056fe35760>:0)\nCore.Inventories.Cell.set_Stack (Core.Inventories.Stack value) (at <31bdb29d12e9483b91fc3f056fe35760>:0)\nCore.InventoryBehavior.AddToInventory (Core.Inventories.Inventory target, Core.Inventories.Stack stack) (at <31bdb29d12e9483b91fc3f056fe35760>:0)\nAssets.UiTest.Scripts.Cheats.GetAxe (System.Int32 amount) (at <31bdb29d12e9483b91fc3f056fe35760>:0)\nAssets.UiTest.TestSteps.InventoryFullnessStep+<OnRun>d__2.MoveNext () (at <316f6727d05f4a6e9845e5b4b66bf24d>:0)\nUiTest.UiTest.Coroutine.UiTestCoroutine.Run () (at <316f6727d05f4a6e9845e5b4b66bf24d>:0)\nUiTest.UiTest.Coroutine.Scheduler.Update () (at <316f6727d05f4a6e9845e5b4b66bf24d>:0)\nAssets.UiTest.Scripts.UiTestRun.Update () (at <31bdb29d12e9483b91fc3f056fe35760>:0)\n"}}
+
+Если потом закрыть и открыть инвентарь, то он больше не закрывается - Blocker!
+
 11. В конфиге спрайтов нету иконок, которые в ТЗ. !НЕ CellFrame
     - tool_hatchet_iron
     - Icon_Coin

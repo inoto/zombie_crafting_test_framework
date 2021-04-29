@@ -18,7 +18,12 @@ namespace Assets.UiTest.TestSteps
 		protected override IEnumerator OnRun()
 		{
 			var sawmillCoord = Context.GetObjectCordConfig("home", "workbench_sawmill");
-			yield return Context.Commands.PlayerMoveCommand(sawmillCoord, new ResultData<PlayerMoveResult>());
+			var result = new ResultData<PlayerMoveResult>();
+			yield return Context.Commands.PlayerMoveCommand(sawmillCoord, result);
+			if (result.GetData().FailMove == true)
+			{
+				Fail($"Игроку не удалось добраться до станка.");
+			}
 		}
 	}
 }

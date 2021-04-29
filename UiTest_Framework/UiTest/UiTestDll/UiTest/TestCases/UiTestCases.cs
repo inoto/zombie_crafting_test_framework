@@ -8,31 +8,29 @@ namespace Assets.UiTest.Runner
 
         public UiTestCases()
         {
-            int i = 0;
             // _tests.Add(0, new TestCase0());
-            // _tests.Add(i++, new TestCase1_InventoryOpen());
             // Trees
-            // _tests.Add(i++, new TestCase02_HarvestTree());
-            // _tests.Add(i++, new TestCase03_TreesHarvestWithLessThen3Actions());
-            // _tests.Add(i++, new TestCase04_TreesHarvestWith3Actions());
-            // _tests.Add(i++, new TestCase05_TreesUnfocusAfterHarvest());
-            // _tests.Add(i++, new TestCase32_TreesGetWoodAfterHarvest());
+            // _tests.Add(1, new TestCase_Trees_01_HarvestRequiresAxe());
+            // _tests.Add(2, new TestCase_Trees_02_LessThenNeededHarvestActions());
+            // _tests.Add(3, new TestCase_Trees_03_MaxHarvestActions());
+            // _tests.Add(4, new TestCase_Trees_04_UnfocusAfterHarvest());
+            // _tests.Add(5, new TestCase_Trees_05_GetWoodItemAfterHarvest());
             // Player
-            // _tests.Add(i++, new TestCase06_PlayerMoveWithDpad());
-            // _tests.Add(i++, new TestCase07_PlayerFocusOnObject());
-            // _tests.Add(i++, new TestCase08_PlayerChangeFocusWithinAliveObjects());
-            // _tests.Add(i++, new TestCase09_PlayerEndFocusWhenLeaveObject());
+            // _tests.Add(6, new TestCase_Player_01_MoveWithDpad());
+            // _tests.Add(7, new TestCase_Player_02_FocusOnObject());
+            // _tests.Add(8, new TestCase_Player_03_ChangeFocusWithinAliveObjects());
+            // _tests.Add(9, new TestCase_Player_04_EndFocusWhenLeaveObject());
             // Player Inventory
-            // _tests.Add(i++, new TestCase1_InventoryOpen());
-            // _tests.Add(i++, new TestCase10_PlayerInventoryClose());
-            // _tests.Add(i++, new TestCase11_PlayerInventoryRemoveItem());
-            // _tests.Add(i++, new TestCase12_PlayerInventoryMoveItem());
-            // _tests.Add(i++, new TestCase13_PlayerInventoryAllSlotsAvailableToPutItem());
-            // _tests.Add(i++, new TestCase14_PlayerInventoryItemStacking());
-            // _tests.Add(i++, new TestCase15_PlayerInventoryItemMaxStack());
-            // _tests.Add(i++, new TestCase17_PlayerInventoryItemNonStackable());
+            // _tests.Add(10, new TestCase_Inventory_01_Open());
+            // _tests.Add(11, new TestCase_Inventory_02_Close());
+            // _tests.Add(12, new TestCase_Inventory_03_RemoveItem());
+            // _tests.Add(13, new TestCase_Inventory_04_MoveItem());
+            // _tests.Add(14, new TestCase_Inventory_05_AllSlotsAvailable());
+            // _tests.Add(15, new TestCase_Inventory_06_ItemStacking());
+            // _tests.Add(16, new TestCase_Inventory_07_ItemMaxStack());
+            // _tests.Add(17, new TestCase_Inventory_08_ItemNonStackable());
             // WorkbenchSawmill
-            // _tests.Add(i++, new TestCase02_HarvestTree());
+            _tests.Add(18, new TestCase_WorkbenchSawmill_01_Open());
         }
 
         public IUiTestCase GetTestCase(int test)
