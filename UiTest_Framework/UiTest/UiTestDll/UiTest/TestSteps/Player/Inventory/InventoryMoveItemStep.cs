@@ -11,45 +11,31 @@ namespace Assets.UiTest.TestSteps
     public class InventoryMoveItemStep : UiTestStepBase
     {
         public override string Id => "inventory_move_item";
-        public override double TimeOut => 300;
-        protected override Dictionary<string, string> GetArgs()
-        {
-            var args = new Dictionary<string, string>();
-            return args;
-        }
 
         protected override IEnumerator OnRun()
         {
-            yield return Commands.DragAndDropCommand(Screens.Inventory.Cell.Pockets, 3, Screens.Inventory.Cell.Backpack, 10, new ResultData<SimpleCommandResult>());
+            int moveFromIndex = 0;
+            int moveToIndex = 5;
+            
+            var cellFrom = Context.FindInventoryCellByIndex(moveFromIndex, Screens.Inventory.Cell.Pockets);
+            var iconNameFrom = Context.GetCellIconName(cellFrom);
+            
+            // yield return Commands.UseButtonClickCommand(Screens.Main.Button.Inventory, new ResultData<SimpleCommandResult>());
+            var result = new ResultData<SimpleCommandResult>();
+            yield return Commands.DragAndDropCommand(Screens.Inventory.Cell.Pockets, moveFromIndex, Screens.Inventory.Cell.Pockets, moveToIndex, result);
+            yield return Commands.WaitForSecondsCommand(0.5f, new ResultData<SimpleCommandResult>());
 
-            var inventoryType = Screens.Inventory.Cell.Pockets.Item;
-            for (int i = 0; i < 25; i++)
+            var cellTo = Context.FindInventoryCellByIndex(moveToIndex, Screens.Inventory.Cell.Pockets);
+            var iconNameTo = Context.GetCellIconName(cellTo);
+            if (iconNameFrom == iconNameTo && !Cheats.IconIsEmpty(cellTo))
+            {}
+            else
             {
-                if (i == 16 || i == 17 || i == 21 || i == 22)
-                    continue;
-                if (i >= 10 && i < 25)
-                    inventoryType = Screens.Inventory.Cell.Backpack.Item;
-                var go = Context.Inventory.GetCells(inventoryType).GetCell(i);
-                int cellCount = Context.Cheats.CellCount(go);
-                Context.SendDebugLog($"cell {i} count: {cellCount}");
-                var iconIsEmpty = Context.Cheats.IconIsEmpty(go);
-                Context.SendDebugLog($"cell {i} iconIsEmpty: {iconIsEmpty}");
-                var countIsEmpty = Context.Cheats.CountIsEmpty(go);
-                Context.SendDebugLog($"cell {i} countIsEmpty: {countIsEmpty}");
+                // yield return Commands.UseButtonClickCommand(Screens.Inventory.Button.Close, new ResultData<SimpleCommandResult>());
+                Fail($"Не удалось переместить предмет из позиции {moveFromIndex} на позицию {moveToIndex} в инвентаре.");
             }
-            
-            var goRow = Context.Inventory.GetCells(Screens.Inventory.Cell.WorkbenchRow.Item).GetCell(0);
-            int cellCountRow = Context.Cheats.CellCount(goRow);
-            Context.SendDebugLog($"cell row count: {cellCountRow}");
-            var iconIsEmptyRow = Context.Cheats.IconIsEmpty(goRow);
-            Context.SendDebugLog($"cell row iconIsEmpty: {iconIsEmptyRow}");
-            var countIsEmptyRow = Context.Cheats.CountIsEmpty(goRow);
-            Context.SendDebugLog($"cell row countIsEmpty: {countIsEmptyRow}");
-            
-            
-            
-            yield break;
-           
+            // yield return Commands.UseButtonClickCommand(Screens.Inventory.Button.Close, new ResultData<SimpleCommandResult>());
+            yield return Commands.WaitForSecondsCommand(1f, new ResultData<SimpleCommandResult>());
         }
     }
 }

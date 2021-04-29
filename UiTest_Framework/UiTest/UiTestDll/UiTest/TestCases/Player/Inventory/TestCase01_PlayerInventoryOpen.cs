@@ -12,15 +12,8 @@ namespace Assets.UiTest.Runner
     {
         protected override IEnumerator<IUiTestStepBase> Condition()
         {
-            yield return Steps.ExampleStep();
+            yield return Steps.WaitGameLoadedStep();
             yield return Steps.InventoryOpenStep();
-            // yield return Steps.InventoryMoveItemStep();
-            // List<IUiTestChecker> checker = new List<IUiTestChecker>();
-
-            yield return Steps.FindItemStep();
-
-            // yield return Steps.InventoryCloseStep();
-            // yield return Steps.PlayerMoveSawmillStep();
         }
     }
 }

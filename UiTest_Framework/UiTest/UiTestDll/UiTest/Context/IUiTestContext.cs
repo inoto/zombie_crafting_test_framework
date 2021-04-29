@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Assets.UiTest.Context.Consts;
 using Assets.UiTest.ExitPosition;
 using Assets.UiTest.Sprite;
 using Assets.UiTest.TouchInput;
@@ -31,7 +32,7 @@ namespace Assets.UiTest.Context
         int GetCellIndex(GameObject cell);
         string GetCellIconName(GameObject cell);
         GameObject FindCellInInventoriesBySpriteName(string spriteName, HashSet<string> inventoryIds);
-        GameObject FindInventoryCellByIndex(int index, string inventoryId);
+        GameObject FindInventoryCellByIndex(int index, StringParam inventoryId);
         void CreatFilePath(string path);
         void SendDebugLog(string text);
         void SendCommandLog(string commandId, DateTime startTime, DateTime endTime,Dictionary<string,string> comp, bool screenshoots = false);

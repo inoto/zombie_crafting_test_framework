@@ -303,10 +303,11 @@ namespace Assets.UiTest.Context
             return FindInventoryCellBySpriteName(spriteName, hashGo);
         }
 
-        public GameObject FindInventoryCellByIndex(int index, string inventoryId)
+        public GameObject FindInventoryCellByIndex(int index, StringParam inventoryId)
         {
-            GameObject invGO = this.Inventory.GetContent(inventoryId).GetGO();
-            return invGO.transform.GetChild(index).gameObject;
+            return this.Inventory.GetCells(inventoryId.Item).GetCell(index);
+            // GameObject invGO = cell.transform.parent.gameObject; 
+            // return invGO.transform.GetChild(index).gameObject;
         }
 
         public HashSet<string> GetSpriteCategory(string spriteCategoryId)

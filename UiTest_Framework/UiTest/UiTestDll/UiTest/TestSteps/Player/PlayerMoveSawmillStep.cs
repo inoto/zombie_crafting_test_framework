@@ -19,10 +19,6 @@ namespace Assets.UiTest.TestSteps
 		{
 			var sawmillCoord = Context.GetObjectCordConfig("home", "workbench_sawmill");
 			yield return Context.Commands.PlayerMoveCommand(sawmillCoord, new ResultData<PlayerMoveResult>());
-			// yield return Commands.UseButtonClickCommand(Screens.Main.Button.Use, new ResultData<SimpleCommandResult>());
-			// yield return Commands.DragAndDropCommand(Screens.Inventory.Cell.Pockets, 2, Screens.Inventory.Cell.WorkbenchRow, 0, new ResultData<SimpleCommandResult>());
-
-			yield break;
 		}
 	}
 }

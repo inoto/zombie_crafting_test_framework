@@ -60,25 +60,6 @@ namespace Assets.UiTest.TestSteps
         {
             return new FindItemStep();
         }
-        
-        public IUiTestStepBase TreesGoToClosestTreeStep()
-        {
-            return new TreesGoToClosestTreeStep();
-        }
-		
-        public IUiTestStepBase TreesHarvestTree1TimeStep()
-        {
-            return new TreesHarvestTree1TimeStep();
-        }
-		
-        public IUiTestStepBase TreesFullyHarvestTreeStep()
-        {
-            return new TreesFullyHarvestTreeStep();
-        }
-		
-        public IUiTestStepBase TreesHarvestWithoutAxeStep()
-        {
-            return new TreesHarvestWithoutAxeStep();
-        }
+
     }
 }

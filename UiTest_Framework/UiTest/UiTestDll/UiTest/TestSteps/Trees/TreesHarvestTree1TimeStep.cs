@@ -32,24 +32,6 @@ namespace Assets.UiTest.TestSteps.Trees
 			{
 				Fail($"Дерево срублено после 1 заруба, хотя должно быть срублено за 3 заруба.");
 			}
-
-			if (new TreeCountChecker(Context, 0).Check() == false)
-			{
-				Fail($"Не срубленное дерево попало в инвентарь, хотя не должно было.");
-			}
-
-			if (new UseActiveChecker(Context).Check() == false)
-			{
-				Fail($"Кнопка действия не активна, хотя должна быть.");
-			}
-
-			if (new UseTargetChecker(Context, trees[treeIndex].transform.position).Check() == false)
-			{
-				Fail($"Дерево не в таргете, хотя должно быть.");
-			}
-			yield return Commands.ScreenshotCommand(new ResultData<SimpleCommandResult>());
-			
-			yield break;
 		}
 	}
 }

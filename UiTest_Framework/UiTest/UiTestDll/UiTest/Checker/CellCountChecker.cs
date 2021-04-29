@@ -26,5 +26,10 @@ namespace UiTest.UiTest.Checker
             var count = _context.Cheats.CellCount(_cellGo);
             return count == _count;
         }
+
+        public int GetCellCount()
+        {
+            return _context.Cheats.CellCount(_cellGo);
+        }
     }
 }

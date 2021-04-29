@@ -33,18 +33,18 @@ namespace Assets.UiTest.TestSteps.Trees
 			}
 			
 			yield return Commands.WaitForSecondsCommand(3, new ResultData<SimpleCommandResult>());
+			
 			if (new TreeFelledChecker(Context, trees[treeIndex]).Check() == true)
 			{
-				// yield return Commands.ScreenshotCommand(new ResultData<SimpleCommandResult>());
-				// Fail($"Дерево срублено, хотя не должно быть.");
+				Fail($"Дерево срублено, хотя не должно быть.");
 			}
 			
+			yield return Commands.UseButtonClickCommand(Screens.Main.Button.Inventory, new ResultData<SimpleCommandResult>());
 			if (new TreeCountChecker(Context, 0).Check() == false)
 			{
-				// Fail($"В инвентаре есть бревно, хотя не должно быть.");
+				Fail($"В инвентаре есть бревно, хотя не должно быть.");
 			}
-			
-			
+			yield return Commands.UseButtonClickCommand(Screens.Inventory.Button.Close, new ResultData<SimpleCommandResult>());
 		}
 
 		private IEnumerator RemoveAxesFromInventory()

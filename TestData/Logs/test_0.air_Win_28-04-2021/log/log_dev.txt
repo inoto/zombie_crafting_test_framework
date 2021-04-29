@@ -1,0 +1,70 @@
+{"time":"2021-4-28 14:05:37","name":"run testcase 0 \"Assets.UiTest.Runner.TestCase13_PlayerInventoryAllSlotsAvailableToPutItem\"","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:37","name":"wait_dialog         ","duration":"00:00","result":"<00:00:00.0599648>","arg":"<start>, <start_screen>, <False>"}
+{"time":"2021-4-28 14:05:37","name":"step_wait_game_loaded    ","duration":"00:00","arg":[]}
+{"time":"2021-4-28 14:05:38","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<inventory>"}
+{"time":"2021-4-28 14:05:38","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<close>"}
+{"time":"2021-4-28 14:05:38","name":"step_inventory_reset_step","duration":"00:00","arg":[]}
+{"time":"2021-4-28 14:05:38","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<inventory>"}
+{"time":"2021-4-28 14:05:38","name":"step_inventory_open      ","duration":"00:00","arg":[]}
+{"time":"2021-4-28 14:05:38","name":"текущий слот 0 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:38","name":"след слот 1 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:38","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, pockets>, <0>, <inventory, pockets>, <1> "}
+{"time":"2021-4-28 14:05:38","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-28 14:05:38","name":"текущий слот 1 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:38","name":"след слот 2 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:38","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, pockets>, <1>, <inventory, pockets>, <2> "}
+{"time":"2021-4-28 14:05:38","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-28 14:05:39","name":"текущий слот 2 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:39","name":"след слот 3 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:39","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, pockets>, <2>, <inventory, pockets>, <3> "}
+{"time":"2021-4-28 14:05:39","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-28 14:05:39","name":"текущий слот 3 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:39","name":"след слот 4 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:39","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, pockets>, <3>, <inventory, pockets>, <4> "}
+{"time":"2021-4-28 14:05:39","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-28 14:05:39","name":"текущий слот 4 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:39","name":"след слот 5 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:39","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, pockets>, <4>, <inventory, pockets>, <5> "}
+{"time":"2021-4-28 14:05:39","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-28 14:05:40","name":"текущий слот 5 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:40","name":"след слот 6 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:40","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, pockets>, <5>, <inventory, pockets>, <6> "}
+{"time":"2021-4-28 14:05:40","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-28 14:05:40","name":"текущий слот 6 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:40","name":"след слот 7 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:40","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, pockets>, <6>, <inventory, pockets>, <7> "}
+{"time":"2021-4-28 14:05:40","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-28 14:05:40","name":"текущий слот 7 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:40","name":"след слот 8 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:40","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, pockets>, <7>, <inventory, pockets>, <8> "}
+{"time":"2021-4-28 14:05:40","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-28 14:05:40","name":"текущий слот 8 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:40","name":"след слот 9 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:40","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, pockets>, <8>, <inventory, pockets>, <9> "}
+{"time":"2021-4-28 14:05:41","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-28 14:05:41","name":"текущий слот 9 и инв: pockets","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:41","name":"след слот 10 и инв: backpack","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:41","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, pockets>, <9>, <inventory, backpack>, <10> "}
+{"time":"2021-4-28 14:05:41","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-28 14:05:41","name":"текущий слот 10 и инв: backpack","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:41","name":"след слот 11 и инв: backpack","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:41","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, backpack>, <10>, <inventory, backpack>, <11> "}
+{"time":"2021-4-28 14:05:41","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-28 14:05:41","name":"текущий слот 11 и инв: backpack","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:41","name":"след слот 12 и инв: backpack","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:41","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, backpack>, <11>, <inventory, backpack>, <12> "}
+{"time":"2021-4-28 14:05:42","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-28 14:05:42","name":"текущий слот 12 и инв: backpack","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:42","name":"след слот 13 и инв: backpack","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:42","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, backpack>, <12>, <inventory, backpack>, <13> "}
+{"time":"2021-4-28 14:05:42","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-28 14:05:42","name":"текущий слот 13 и инв: backpack","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:42","name":"след слот 14 и инв: backpack","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:42","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, backpack>, <13>, <inventory, backpack>, <14> "}
+{"time":"2021-4-28 14:05:42","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-28 14:05:42","name":"текущий слот 14 и инв: backpack","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:42","name":"след слот 15 и инв: backpack","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:42","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, backpack>, <14>, <inventory, backpack>, <15> "}
+{"time":"2021-4-28 14:05:42","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-28 14:05:43","name":"текущий слот 15 и инв: backpack","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-28 14:05:43","name":"след слот 16 и инв: backpack","duration":"00:00","result":"","arg":""}

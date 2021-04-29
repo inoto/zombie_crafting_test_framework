@@ -23,6 +23,8 @@ namespace Assets.UiTest.TestSteps
         private ITestRoutine _coroutine;
         protected readonly ICheats Cheats;
         protected readonly Commands Commands;
+
+        private DateTime _startTime;
         
 
         protected UiTestStepBase()
@@ -64,6 +66,8 @@ namespace Assets.UiTest.TestSteps
 
         protected void Fail(string assert)
         {
+            var endTime = DateTime.UtcNow;
+            Context.SendCommandReport(Id, _startTime, endTime, CurrentState.ToString());
             Context.FailScenario(assert);
             if (_coroutine != null) Context.Scheduler.Remove(_coroutine);
             CurrentState = TestStepState.Fail;
@@ -80,13 +84,13 @@ namespace Assets.UiTest.TestSteps
         
         public IEnumerator RunStep()
         {
-            var starTime = DateTime.UtcNow;
+            _startTime = DateTime.UtcNow;
             Run();
             while (CurrentState == TestStepState.Progress)
             {
                 yield return Context.WaitEndFrame;
                 var failTime = DateTime.UtcNow;
-                var duration = failTime - starTime;
+                var duration = failTime - _startTime;
                 if (duration.TotalSeconds>=TimeOut)
                 {
                     yield return Commands.ScreenshotCommand(new ResultData<SimpleCommandResult>());
@@ -97,7 +101,7 @@ namespace Assets.UiTest.TestSteps
             if (CurrentState == TestStepState.Done)
             {
                 var endTime = DateTime.UtcNow;
-                Context.SendCommandReport(Id, starTime, endTime, CurrentState.ToString());
+                Context.SendCommandReport(Id, _startTime, endTime, CurrentState.ToString());
             }
         }
     }

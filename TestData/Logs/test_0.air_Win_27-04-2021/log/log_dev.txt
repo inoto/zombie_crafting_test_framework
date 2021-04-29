@@ -1,35 +1,126 @@
-{"time":"2021-4-27 13:45:35","name":"wait_dialog         ","duration":"00:00","result":"<00:00:00.0737818>","arg":"<start>, <start_screen>, <False>"}
-{"time":"2021-4-27 13:45:35","name":"step_wait_game_loaded    ","duration":"00:00","arg":[]}
-{"time":"2021-4-27 13:45:35","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<inventory>"}
-{"time":"2021-4-27 13:45:35","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<4, inventory, pockets>"}
-{"time":"2021-4-27 13:45:35","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
-{"time":"2021-4-27 13:45:35","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<5, inventory, pockets>"}
-{"time":"2021-4-27 13:45:35","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
-{"time":"2021-4-27 13:45:36","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<6, inventory, pockets>"}
-{"time":"2021-4-27 13:45:36","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
-{"time":"2021-4-27 13:45:36","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<7, inventory, pockets>"}
-{"time":"2021-4-27 13:45:36","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
-{"time":"2021-4-27 13:45:36","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<8, inventory, pockets>"}
-{"time":"2021-4-27 13:45:36","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
-{"time":"2021-4-27 13:45:36","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<9, inventory, pockets>"}
-{"time":"2021-4-27 13:45:36","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
-{"time":"2021-4-27 13:45:36","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<close>"}
-{"time":"2021-4-27 13:45:35","name":"step_inventory_reset_step","duration":"00:01","arg":[]}
-{"time":"2021-4-27 13:45:36","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<inventory>"}
-{"time":"2021-4-27 13:45:36","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<0, inventory, pockets>"}
-{"time":"2021-4-27 13:45:37","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
-{"time":"2021-4-27 13:45:37","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<1, inventory, pockets>"}
-{"time":"2021-4-27 13:45:37","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
-{"time":"2021-4-27 13:45:37","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<2, inventory, pockets>"}
-{"time":"2021-4-27 13:45:37","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
-{"time":"2021-4-27 13:45:37","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<close>"}
-{"time":"2021-4-27 13:45:37","name":"player_move         ","duration":"00:00","result":"<False>","arg":"<(0.0, 0.0, 0.0)>"}
-{"time":"2021-4-27 13:45:37","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
-{"time":"2021-4-27 13:45:38","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<use>"}
-{"time":"2021-4-27 13:45:38","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
-{"time":"2021-4-27 13:45:39","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<use>"}
-{"time":"2021-4-27 13:45:39","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
-{"time":"2021-4-27 13:45:41","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<use>"}
-{"time":"2021-4-27 13:45:41","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
-{"time":"2021-4-27 13:45:42","name":"wait_for_seconds    ","duration":"00:03","result":"<True>","arg":"<3>"}
-{"time":"2021-4-27 13:45:36","name":"step_trees_harvest_without_axe","duration":"00:08","arg":[]}
+{"time":"2021-4-27 14:52:17","name":"run testcase 0 \"Assets.UiTest.Runner.TestCase02_HarvestTree\"","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:17","name":"wait_dialog         ","duration":"00:00","result":"<00:00:00.0749476>","arg":"<start>, <start_screen>, <False>"}
+{"time":"2021-4-27 14:52:17","name":"step_wait_game_loaded    ","duration":"00:00","arg":[]}
+{"time":"2021-4-27 14:52:17","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<inventory>"}
+{"time":"2021-4-27 14:52:17","name":"в слоте 0 нужная иконка - оставляем, cell name: tool_hatchet_iron","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:17","name":"в слоте 1 нужная иконка - оставляем, cell name: tool_hatchet_iron","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:17","name":"в слоте 2 нужная иконка - оставляем, cell name: tool_hatchet_iron","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:17","name":"в слоте 3 нужная иконка - оставляем, cell name: Icon_Coin","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:17","name":"remove item index: 4","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:17","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<4, inventory, pockets>"}
+{"time":"2021-4-27 14:52:17","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:17","name":"remove item index: 5","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:17","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<5, inventory, pockets>"}
+{"time":"2021-4-27 14:52:17","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:17","name":"remove item index: 6","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:17","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<6, inventory, pockets>"}
+{"time":"2021-4-27 14:52:17","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:18","name":"remove item index: 7","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:18","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<7, inventory, pockets>"}
+{"time":"2021-4-27 14:52:18","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:18","name":"remove item index: 8","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:18","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<8, inventory, pockets>"}
+{"time":"2021-4-27 14:52:18","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:18","name":"remove item index: 9","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:18","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<9, inventory, pockets>"}
+{"time":"2021-4-27 14:52:18","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:18","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<close>"}
+{"time":"2021-4-27 14:52:17","name":"step_inventory_reset_step","duration":"00:01","arg":[]}
+{"time":"2021-4-27 14:52:18","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<inventory>"}
+{"time":"2021-4-27 14:52:18","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<0, inventory, pockets>"}
+{"time":"2021-4-27 14:52:18","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:19","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<1, inventory, pockets>"}
+{"time":"2021-4-27 14:52:19","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:19","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<2, inventory, pockets>"}
+{"time":"2021-4-27 14:52:19","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:19","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<close>"}
+{"time":"2021-4-27 14:52:19","name":"player_move         ","duration":"00:00","result":"<False>","arg":"<(0.0, 0.0, 0.0)>"}
+{"time":"2021-4-27 14:52:19","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
+{"time":"2021-4-27 14:52:20","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<use>"}
+{"time":"2021-4-27 14:52:20","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
+{"time":"2021-4-27 14:52:21","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<use>"}
+{"time":"2021-4-27 14:52:21","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
+{"time":"2021-4-27 14:52:22","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<use>"}
+{"time":"2021-4-27 14:52:22","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
+{"time":"2021-4-27 14:52:24","name":"wait_for_seconds    ","duration":"00:03","result":"<True>","arg":"<3>"}
+{"time":"2021-4-27 14:52:18","name":"step_trees_harvest_without_axe","duration":"00:08","arg":[]}
+{"time":"2021-4-27 14:52:27","name":"run testcase 1 \"Assets.UiTest.Runner.TestCase03_TreesHarvestWithLessThen3Actions\"","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:27","name":"wait_dialog         ","duration":"00:00","result":"<00:00:00>","arg":"<start>, <start_screen>, <False>"}
+{"time":"2021-4-27 14:52:27","name":"step_wait_game_loaded    ","duration":"00:00","arg":[]}
+{"time":"2021-4-27 14:52:27","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<inventory>"}
+{"time":"2021-4-27 14:52:27","name":"remove item index: 0","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:27","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<0, inventory, pockets>"}
+{"time":"2021-4-27 14:52:27","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:27","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-27 14:52:27","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-27 14:52:28","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-27 14:52:28","name":"в слоте 3 нужная иконка - оставляем, cell name: Icon_Coin","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:28","name":"remove item index: 4","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:28","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<4, inventory, pockets>"}
+{"time":"2021-4-27 14:52:28","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:28","name":"remove item index: 5","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:28","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<5, inventory, pockets>"}
+{"time":"2021-4-27 14:52:28","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:28","name":"remove item index: 6","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:28","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<6, inventory, pockets>"}
+{"time":"2021-4-27 14:52:28","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:28","name":"remove item index: 7","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:28","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<7, inventory, pockets>"}
+{"time":"2021-4-27 14:52:28","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:29","name":"remove item index: 8","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:29","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<8, inventory, pockets>"}
+{"time":"2021-4-27 14:52:29","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:29","name":"remove item index: 9","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:29","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<9, inventory, pockets>"}
+{"time":"2021-4-27 14:52:29","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:29","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<close>"}
+{"time":"2021-4-27 14:52:27","name":"step_inventory_reset_step","duration":"00:02","arg":[]}
+{"time":"2021-4-27 14:52:29","name":"player_move         ","duration":"00:00","result":"<False>","arg":"<(1.0, 0.0, 1.0)>"}
+{"time":"2021-4-27 14:52:30","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
+{"time":"2021-4-27 14:52:31","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<use>"}
+{"time":"2021-4-27 14:52:31","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
+{"time":"2021-4-27 14:52:32","name":"screenshot          ","duration":"00:00","result":"<True>","arg":""}
+{"time":"2021-4-27 14:52:29","name":"step_trees_harvest_tree_1_time","duration":"00:03","arg":[]}
+{"time":"2021-4-27 14:52:32","name":"player_move         ","duration":"00:00","result":"<False>","arg":"<(1.0, 0.0, 1.0)>"}
+{"time":"2021-4-27 14:52:32","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
+{"time":"2021-4-27 14:52:33","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<use>"}
+{"time":"2021-4-27 14:52:33","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
+{"time":"2021-4-27 14:52:35","name":"screenshot          ","duration":"00:00","result":"<True>","arg":""}
+{"time":"2021-4-27 14:52:32","name":"step_trees_harvest_tree_1_time","duration":"00:02","arg":[]}
+{"time":"2021-4-27 14:52:35","name":"run testcase 2 \"Assets.UiTest.Runner.TestCase04_TreesHarvestWith3Actions\"","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:35","name":"wait_dialog         ","duration":"00:00","result":"<00:00:00>","arg":"<start>, <start_screen>, <False>"}
+{"time":"2021-4-27 14:52:35","name":"step_wait_game_loaded    ","duration":"00:00","arg":[]}
+{"time":"2021-4-27 14:52:35","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<inventory>"}
+{"time":"2021-4-27 14:52:35","name":"wait_for_seconds    ","duration":"00:00","result":"<True>","arg":"<0.1>"}
+{"time":"2021-4-27 14:52:35","name":"в слоте 1 нужная иконка - оставляем, cell name: tool_hatchet_iron","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:35","name":"в слоте 2 нужная иконка - оставляем, cell name: tool_hatchet_iron","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:35","name":"в слоте 3 нужная иконка - оставляем, cell name: Icon_Coin","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:35","name":"remove item index: 4","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:35","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<4, inventory, pockets>"}
+{"time":"2021-4-27 14:52:35","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:35","name":"remove item index: 5","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:35","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<5, inventory, pockets>"}
+{"time":"2021-4-27 14:52:36","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:36","name":"remove item index: 6","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:36","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<6, inventory, pockets>"}
+{"time":"2021-4-27 14:52:36","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:36","name":"remove item index: 7","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:36","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<7, inventory, pockets>"}
+{"time":"2021-4-27 14:52:36","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:36","name":"remove item index: 8","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:36","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<8, inventory, pockets>"}
+{"time":"2021-4-27 14:52:36","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:36","name":"remove item index: 9","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:36","name":"click_cell          ","duration":"00:00","result":"<True>","arg":"<9, inventory, pockets>"}
+{"time":"2021-4-27 14:52:36","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<delete>"}
+{"time":"2021-4-27 14:52:36","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<inventory>,<close>"}
+{"time":"2021-4-27 14:52:35","name":"step_inventory_reset_step","duration":"00:01","arg":[]}
+{"time":"2021-4-27 14:52:37","name":"player_move         ","duration":"00:00","result":"<False>","arg":"<(2.0, 0.0, 2.0)>"}
+{"time":"2021-4-27 14:52:37","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
+{"time":"2021-4-27 14:52:39","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<use>"}
+{"time":"2021-4-27 14:52:39","name":"wait_for_seconds    ","duration":"00:01","result":"<True>","arg":"<1>"}
+{"time":"2021-4-27 14:52:40","name":"wait_for_seconds    ","duration":"00:03","result":"<True>","arg":"<3>"}
+{"time":"2021-4-27 14:52:43","name":"screenshot          ","duration":"00:00","result":"<True>","arg":""}
+{"time":"2021-4-27 14:52:43","name":"run testcase 3 \"Assets.UiTest.Runner.TestCase05_TreesUnfocusAfterHarvest\"","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-27 14:52:43","name":"wait_dialog         ","duration":"00:00","result":"<00:00:00>","arg":"<start>, <start_screen>, <False>"}
+{"time":"2021-4-27 14:52:43","name":"step_wait_game_loaded    ","duration":"00:00","arg":[]}

@@ -7,17 +7,16 @@ namespace Assets.UiTest.TestSteps
 {
 	public class InventoryCloseStep : UiTestStepBase
 	{
-		public override string Id => "inventory_open";
-		public override double TimeOut => 300;
-		protected override Dictionary<string, string> GetArgs()
-		{
-			var args = new Dictionary<string, string>();
-			return args;
-		}
+		public override string Id => "inventory_close";
 
 		protected override IEnumerator OnRun()
 		{
-			yield return Commands.UseButtonClickCommand(Screens.Inventory.Button.Close, new ResultData<SimpleCommandResult>());
+			var result = new ResultData<SimpleCommandResult>();
+			yield return Commands.UseButtonClickCommand(Screens.Inventory.Button.Close, result);
+			if (!result.GetData().IsDone)
+			{
+				Fail($"Инвентарь не закрылся, хотя должен был.");
+			}
 		}
 	}
 }
