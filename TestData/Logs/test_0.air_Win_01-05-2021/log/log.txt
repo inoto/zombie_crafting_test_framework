@@ -1,0 +1,6 @@
+{"tag":"function","depth":1,"time":"2021-5-1 16:38:43","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619887123,"start_time":1619887123,"ret":null,"name":"wait_game_loaded"}}
+{"tag":"function","depth":1,"time":"2021-5-1 16:38:43","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619887127,"start_time":1619887123,"ret":null,"name":"player_move_to_sawmill"}}
+{"tag":"function","depth":1,"time":"2021-5-1 16:38:47","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619887128,"start_time":1619887127,"ret":null,"name":"workbench_sawmill_open"}}
+{"tag":"function","depth":1,"time":"2021-5-1 16:38:48","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619887128,"start_time":1619887128,"ret":null,"name":"workbench_sawmill_get_wood_and_put_to_row"}}
+{"tag":"function","depth":1,"time":"2021-5-1 16:38:48","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619887128,"start_time":1619887128,"ret":null,"name":"workbench_sawmill_progress_stop_start_when_replace_result"}}
+{"tag":"function","depth":1,"time":"2021-5-1 16:38:48","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619887128,"start_time":1619887128,"ret":null,"name":"workbench_sawmill_close"}}

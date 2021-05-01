@@ -60,6 +60,7 @@ namespace Assets.UiTest.Runner
             yield return _uiTestCase.Run(_context);
             _context.OnErrorDetect -= ContextOnOnErrorDetect;
             _context.SendAllLogs();
+            // Application.Quit();
         }
 
         private void ContextOnOnErrorDetect()
@@ -67,7 +68,7 @@ namespace Assets.UiTest.Runner
             _context.OnErrorDetect -= ContextOnOnErrorDetect;
             _context.SendAllLogs();
             Stop();
-            Application.Quit();
+            // Application.Quit();
         }
     }
 }

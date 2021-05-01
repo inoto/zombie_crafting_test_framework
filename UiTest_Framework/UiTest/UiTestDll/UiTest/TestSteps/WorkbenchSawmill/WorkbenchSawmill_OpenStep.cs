@@ -13,7 +13,7 @@ namespace Assets.UiTest.TestSteps
 			yield return Commands.UseButtonClickCommand(Screens.Main.Button.Use, result);
 			if (!result.GetData().IsDone)
 			{
-				Fail($"Окно станка не открылось, хотя долженно было.");
+				Fail($"Окно станка не открылось, хотя должно было.");
 			}
 		}
 	}

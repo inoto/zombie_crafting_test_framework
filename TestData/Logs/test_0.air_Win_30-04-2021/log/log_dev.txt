@@ -1,0 +1,10 @@
+{"time":"2021-4-30 18:29:29","name":"wait_dialog         ","duration":"00:00","result":"<00:00:00.0770663>","arg":"<start>, <start_screen>, <False>"}
+{"time":"2021-4-30 18:29:29","name":"step_wait_game_loaded    ","duration":"00:00","arg":[]}
+{"time":"2021-4-30 18:29:30","name":"player_move         ","duration":"00:04","result":"<False>","arg":"<(-5.0, 0.0, 5.0)>"}
+{"time":"2021-4-30 18:29:30","name":"step_player_move_to_sawmill","duration":"00:04","arg":[]}
+{"time":"2021-4-30 18:29:34","name":"use_button          ","duration":"00:00","result":"<True>","arg":"<main>,<use>"}
+{"time":"2021-4-30 18:29:34","name":"step_workbench_sawmill_open","duration":"00:00","arg":[]}
+{"time":"2021-4-30 18:29:34","name":"drag_and_drop       ","duration":"00:00","result":"<True>","arg":"<inventory, pockets>, <4>, <inventory, workbench_row>, <0> "}
+{"time":"2021-4-30 18:29:35","name":"прогресс: 0.0132701 ","duration":"00:00","result":"","arg":""}
+{"time":"2021-4-30 18:34:34","name":"screenshot          ","duration":"00:00","result":"<True>","arg":""}
+{"time":"2021-4-30 18:29:34","name":"step_workbench_sawmill_put_item_to_row","duration":"05:00","arg":[]}

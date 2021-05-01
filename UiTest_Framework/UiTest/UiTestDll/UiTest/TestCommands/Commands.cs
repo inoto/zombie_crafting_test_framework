@@ -275,7 +275,18 @@ namespace Assets.UiTest.Context
             comp["result"] = $"<{result.GetData().CountWait.ToString()}>";
             _context.SendCommandLog(CommandsId.WaitItemActiveButton,starTime,endTime,comp);
         }
-        
-        
+
+        public IEnumerator WaitWorkbenchSawmillProgressCompleteCommand(ResultData<WaitItemResult> result)
+        {
+            var starTime=DateTime.UtcNow;
+            var command = new WaitWorkbenchSawmillProgressCompleteCommand(_context);
+            yield return command.Run();
+            result.SetData(command.GetResult());
+            var endTime= DateTime.UtcNow;
+            var comp = new Dictionary<string, string>();
+            comp["arg"] = $"";
+            comp["result"] = $"<{result.GetData().CountWait.ToString()}>";
+            _context.SendCommandLog(CommandsId.WaitItemActiveButton,starTime,endTime,comp);
+        }
     }
 }

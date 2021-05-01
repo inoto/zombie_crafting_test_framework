@@ -259,8 +259,10 @@ namespace Assets.UiTest.Context
             // this.SendDebugLog($"images length: {images.Length}");
             foreach (var image in images)
             {
+                if (image.sprite.name == "CellFrame" || image.sprite.name == "CellFrameDark")
+                    continue;
                 // this.SendDebugLog($"image sprite name: {image.sprite.name}");
-                if (image.sprite != null && image.sprite.name != "CellFrame")
+                if (image.sprite != null)
                     return image.sprite.name;
             }
 
@@ -287,27 +289,15 @@ namespace Assets.UiTest.Context
             return null;
         }
 
-        private GameObject FindInventoryCellByNameInternal()
-        {
-            return null;
-        }
-
-        public GameObject FindCellInInventoriesBySpriteName(string spriteName, HashSet<string> inventoryIds)
+        public GameObject FindCellInInventoriesBySpriteName(string spriteName, HashSet<string> inventoryCellIds)
         {
             HashSet<GameObject> hashGo = new HashSet<GameObject>();
-            foreach (var id in inventoryIds)
+            foreach (var id in inventoryCellIds)
             {
-                hashGo.Add(this.Inventory.GetContent(id).GetGO());
+                hashGo.Add(this.Inventory.GetCells(id).GetCell(0).transform.parent.gameObject);
             }
 
             return FindInventoryCellBySpriteName(spriteName, hashGo);
-        }
-
-        public GameObject FindInventoryCellByIndex(int index, StringParam inventoryId)
-        {
-            return this.Inventory.GetCells(inventoryId.Item).GetCell(index);
-            // GameObject invGO = cell.transform.parent.gameObject; 
-            // return invGO.transform.GetChild(index).gameObject;
         }
 
         public HashSet<string> GetSpriteCategory(string spriteCategoryId)

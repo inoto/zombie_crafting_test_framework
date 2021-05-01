@@ -25,35 +25,35 @@ namespace Assets.UiTest.TestSteps
         {
             return new WaitGameLoadedStep();
         }
-
-        public IUiTestStepBase InventoryResetStep()
-        {
-            return new InventoryResetStep();
-        }
-
+        
         public IUiTestStepBase InventoryOpenStep()
         {
-            return new InventoryOpenStep();
+            return new Inventory_OpenStep();
         }
         
         public IUiTestStepBase InventoryCloseStep()
         {
-            return new InventoryCloseStep();
+            return new Inventory_CloseStep();
         }
         
         public IUiTestStepBase PlayerMoveSawmillStep()
         {
-            return new PlayerMoveSawmillStep();
+            return new Player_MoveToSawmillStep();
         }
 
-        public IUiTestStepBase WorkbenchSawmillOpenStep()
+        public IUiTestStepBase WorkbenchSawmill_OpenStep()
         {
             return new WorkbenchSawmill_OpenStep();
         }
         
-        public IUiTestStepBase InventoryGetAllItems()
+        public IUiTestStepBase WorkbenchSawmill_CloseStep()
         {
-            return new InventoryMoveItemStep();
+            return new WorkbenchSawmill_CloseStep();
+        }
+        
+        public IUiTestStepBase WorkbenchSawmill_GetWoodAndPutToRowStep()
+        {
+            return new WorkbenchSawmill_GetWoodAndPutToRowStep();
         }
 
     }

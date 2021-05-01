@@ -1,0 +1,6 @@
+{"tag":"function","depth":1,"time":"2021-4-30 18:29:29","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619807370,"start_time":1619807369,"ret":null,"name":"wait_game_loaded"}}
+{"tag":"function","depth":1,"time":"2021-4-30 18:29:30","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619807374,"start_time":1619807370,"ret":null,"name":"player_move_to_sawmill"}}
+{"tag":"function","depth":1,"time":"2021-4-30 18:29:34","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619807374,"start_time":1619807374,"ret":null,"name":"workbench_sawmill_open"}}
+{"tag":"function","depth":1,"time":"2021-4-30 18:29:34","data":{"call_args":{},"ret":"Screenshoot_workbench_sawmill_put_item_to_row_1619807675.jpg","start_time":1619807374,"end_time":1619807675,"name":"try_log_screen"}}
+{"tag":"function","depth":1,"time":"2021-4-30 18:29:34","data":{"call_args":{"package":"zombie.survival.craft.z","activity":null},"end_time":1619807675,"start_time":1619807374,"ret":null,"name":"workbench_sawmill_put_item_to_row"}}
+{"tag":"info","depth":0,"time":"2021-4-30 06:34:35","data":{"name":"Final Error","traceback":"Time out"}}

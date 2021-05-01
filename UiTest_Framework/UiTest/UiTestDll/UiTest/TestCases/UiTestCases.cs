@@ -30,7 +30,21 @@ namespace Assets.UiTest.Runner
             // _tests.Add(16, new TestCase_Inventory_07_ItemMaxStack());
             // _tests.Add(17, new TestCase_Inventory_08_ItemNonStackable());
             // WorkbenchSawmill
-            _tests.Add(18, new TestCase_WorkbenchSawmill_01_Open());
+            // _tests.Add(0, new TestCase_WorkbenchSawmill_01_Open());
+            // _tests.Add(0, new TestCase_WorkbenchSawmill_02_Close());
+            // _tests.Add(0, new TestCase_WorkbenchSawmill_03_ItemsProcessing());
+            //
+            // _tests.Add(0, new TestCase_WorkbenchSawmill_06_ResultStacking());
+            // _tests.Add(0, new TestCase_WorkbenchSawmill_07_RemoveRowDuringProgress());
+            // _tests.Add(0, new TestCase_WorkbenchSawmill_08_HaveWrongItemInResult());
+            // _tests.Add(0, new TestCase_WorkbenchSawmill_09_SkipProgress());
+            // _tests.Add(0, new TestCase_WorkbenchSawmill_10_SkipSpendsMoney());
+            // _tests.Add(0, new TestCase_WorkbenchSawmill_10_SkipProgressNotEnoughMoney());
+            // _tests.Add(0, new TestCase_WorkbenchSawmill_12_ResultMaxStack());
+            // _tests.Add(0, new TestCase_WorkbenchSawmill_13_ProcessSchemaItemsOnly());
+            // _tests.Add(0, new TestCase_WorkbenchSawmill_14_SkipResetsProgress());
+            // _tests.Add(0, new TestCase_WorkbenchSawmill_04_ItemsProcessingWhenResultIsBusy());
+            _tests.Add(0, new TestCase_WorkbenchSawmill_06_ProgressStopStartWhenReplaceResult());
         }
 
         public IUiTestCase GetTestCase(int test)
