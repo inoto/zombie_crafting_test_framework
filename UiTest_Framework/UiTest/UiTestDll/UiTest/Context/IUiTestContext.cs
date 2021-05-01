@@ -31,7 +31,6 @@ namespace Assets.UiTest.Context
         string GetCellInventory(GameObject cell);
         int GetCellIndex(GameObject cell);
         string GetCellIconName(GameObject cell);
-        GameObject FindCellInInventoriesBySpriteName(string spriteName, HashSet<string> inventoryCellIds);
         void CreatFilePath(string path);
         void SendDebugLog(string text);
         void SendCommandLog(string commandId, DateTime startTime, DateTime endTime,Dictionary<string,string> comp, bool screenshoots = false);

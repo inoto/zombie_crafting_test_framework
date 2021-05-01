@@ -289,17 +289,6 @@ namespace Assets.UiTest.Context
             return null;
         }
 
-        public GameObject FindCellInInventoriesBySpriteName(string spriteName, HashSet<string> inventoryCellIds)
-        {
-            HashSet<GameObject> hashGo = new HashSet<GameObject>();
-            foreach (var id in inventoryCellIds)
-            {
-                hashGo.Add(this.Inventory.GetCells(id).GetCell(0).transform.parent.gameObject);
-            }
-
-            return FindInventoryCellBySpriteName(spriteName, hashGo);
-        }
-
         public HashSet<string> GetSpriteCategory(string spriteCategoryId)
         {
             return Sprite.GetSprite(spriteCategoryId);
