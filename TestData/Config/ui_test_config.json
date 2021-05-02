@@ -86,10 +86,6 @@
 			"type_search": "cache_search",
 				"path": "Game:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BackpackPanel/Root/Pockets"
 			},
-			"backpack_count": {
-			"type_search": "cache_search",
-				"path": "Game:UICanvas/UI_InventoryPanel/Root/InventoryPanels/BackpackPanel/Root/Backpack"
-			},
 			"workbench_progress_bar": {
 			"type_search": "cache_search",
 				"path": "Game:UICanvas/UI_InventoryPanel/Root/InventoryPanels/ConversionPanel/ProcessPanel/Panel_Small/ResultInfo/ProgressBar/ProgressLevel"

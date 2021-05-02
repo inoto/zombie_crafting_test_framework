@@ -22,10 +22,10 @@ namespace Assets.UiTest.TestSteps
 			
 			int afterSkipMoneyAmount = Cheats.CellCount(cell);
 
-			if (afterSkipMoneyAmount != (initialMoneyAmount - 5))
+			if (afterSkipMoneyAmount != (initialMoneyAmount - spendMoneyAmount))
 			{
 				Fail($"Не верное кол-во монет потрачено. " +
-				     $"Текущее кол-во: {afterSkipMoneyAmount}, ожидаемое кол-во: {initialMoneyAmount-5}");
+				     $"Текущее кол-во: {afterSkipMoneyAmount}, ожидаемое кол-во: {initialMoneyAmount-spendMoneyAmount}");
 			}
 		}
 	}

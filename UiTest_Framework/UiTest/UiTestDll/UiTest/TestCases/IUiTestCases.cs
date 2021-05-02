@@ -1,8 +1,9 @@
-﻿namespace Assets.UiTest.Runner
+﻿using System.Collections.Generic;
+
+namespace Assets.UiTest.Runner
 {
     public interface IUiTestCases
     {
         IUiTestCase GetTestCase(int test);
-        string GetTestCaseName(int number);
     }
 }

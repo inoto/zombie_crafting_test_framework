@@ -41,7 +41,7 @@ namespace Assets.UiTest.Context
             _context.SendCommandLog(CommandsId.AndCheck,starTime,endTime,comp);
         }
         
-        [Obsolete("Метод всегда вызывает NullReferenceException.")]
+        // [Obsolete("Метод всегда вызывает NullReferenceException.")]
         public IEnumerator CellSearchByIconCommand(string iconId, string countItem, HashSet<string> inventoryId, ResultData<CellSearchByIconResult> result)
         {
             var starTime = DateTime.UtcNow;
@@ -70,36 +70,6 @@ namespace Assets.UiTest.Context
             _context.SendCommandLog(CommandsId.CellSearchByIcon, starTime, endTime, comp);
         }
 
-        public IEnumerator CellSearchByIconNewCommand(string iconId, int countItem, HashSet<string> inventoryId,
-            ResultData<CellSearchByIconResult> result)
-        {
-            var starTime = DateTime.UtcNow;
-            var command = new CellSearchByIconNewCommand(_context,iconId, countItem, inventoryId);
-            yield return command.Run();
-            result.SetData(command.GetResult());
-            var endTime = DateTime.UtcNow;
-            var comp = new Dictionary<string, string>();
-            string inventoryIds = "";
-            foreach (var id in inventoryId)
-            {
-                inventoryIds = inventoryIds +", " + id;
-            }
-            inventoryIds = inventoryIds.Substring(1);
-            comp["arg"] = $"<{iconId}>,<{countItem}>, <{inventoryIds}>";
-            
-            var gameObject = result.GetData().CellGo;
-            if (gameObject != null)
-            {
-                comp["result"] = $"<{gameObject.name}>";
-            }
-            else
-            {
-                comp["result"] = null;
-            }
-            _context.SendCommandLog(CommandsId.CellSearchByIcon, starTime, endTime, comp);
-        }
-        
-        
         public IEnumerator CloseDialogCommand(string buttonCloseId, ResultData<SimpleCommandResult> result)
         {
             var starTime= DateTime.UtcNow;

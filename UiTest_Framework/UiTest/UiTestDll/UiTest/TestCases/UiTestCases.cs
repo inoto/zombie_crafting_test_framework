@@ -54,11 +54,5 @@ namespace Assets.UiTest.Runner
                 return _tests[test];
             return null;
         }
-
-        public string GetTestCaseName(int number)
-        {
-            var clas = _tests[number];
-            return clas.GetType().ToString();
-        }
     }
 }

@@ -214,7 +214,6 @@
     <Compile Include="UiTest\Checker\CountIsEmptyChecker.cs" />
     <Compile Include="UiTest\Checker\IconEmptyChecker.cs" />
     <Compile Include="UiTest\Checker\IUiTestChecker.cs" />
-    <Compile Include="UiTest\Checker\Player\Inventory\IsAxeInInventoryChecker.cs" />
     <Compile Include="UiTest\Checker\TreeCountChecker.cs" />
     <Compile Include="UiTest\Checker\TreeFelledChecker.cs" />
     <Compile Include="UiTest\Checker\UseActiveChecker.cs" />
@@ -275,7 +274,6 @@
     <Compile Include="UiTest\TestCommands\CommandsId.cs" />
     <Compile Include="UiTest\TestCommands\Commands\AndCheckCommand.cs" />
     <Compile Include="UiTest\TestCommands\Commands\CellSearchByIconCommand.cs" />
-    <Compile Include="UiTest\TestCommands\Commands\CellSearchByIconNewCommand.cs" />
     <Compile Include="UiTest\TestCommands\Commands\CheckAndUseCommand.cs" />
     <Compile Include="UiTest\TestCommands\Commands\ClickCellCommand.cs" />
     <Compile Include="UiTest\TestCommands\Commands\CloseDialogCommand.cs" />
@@ -394,8 +392,6 @@
     <Content Include="tests.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="UiTest\Checker\Trees" />
-    <Folder Include="UiTest\Checker\WorkbenchSawmill" />
     <Folder Include="UiTest\TestCases\TestCases" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

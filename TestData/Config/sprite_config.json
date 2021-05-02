@@ -186,10 +186,6 @@
 		"sprite": [
 			"convoy_finger"
 		]
-	},
-	"tool_axe": {
-		"sprite": [
-			"tool_hatchet_iron"
-		]
+	}
 	}
 }

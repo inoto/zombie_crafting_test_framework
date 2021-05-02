@@ -251,42 +251,19 @@ namespace Assets.UiTest.Context
 
         public string GetCellIconName(GameObject cell)
         {
-            // if (cell == null)
-            // {
-            //     this.SendDebugLog($"cell is null");
-            // }
             var images = cell.GetComponentsInChildren<Image>();
             // this.SendDebugLog($"images length: {images.Length}");
             foreach (var image in images)
             {
+                if (image.sprite == null)
+                    return null;
                 if (image.sprite.name == "CellFrame" || image.sprite.name == "CellFrameDark")
                     continue;
                 // this.SendDebugLog($"image sprite name: {image.sprite.name}");
-                if (image.sprite != null)
-                    return image.sprite.name;
+                return image.sprite.name;
             }
 
             return "";
-        }
-        
-        private GameObject FindInventoryCellBySpriteName(string spriteName, HashSet<GameObject> hashGo)
-        {
-            foreach (var invGo in hashGo)
-            {
-                // this.SendDebugLog($"invGO name: {invGo.name}");
-                for (int i = 0; i < invGo.transform.childCount; i++)
-                {
-                    var cell = invGo.transform.GetChild(i).gameObject;
-                    var iconName = this.GetCellIconName(cell);
-                    // this.SendDebugLog($"cell: {i}, iconName: {iconName}, isEmpty: {Cheats.IconIsEmpty(cell)}");
-                    if (iconName == spriteName && !Cheats.IconIsEmpty(cell))
-                    {
-                        return cell;
-                    }
-                }
-            }
-
-            return null;
         }
 
         public HashSet<string> GetSpriteCategory(string spriteCategoryId)

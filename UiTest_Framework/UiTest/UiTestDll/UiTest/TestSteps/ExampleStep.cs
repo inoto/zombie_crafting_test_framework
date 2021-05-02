@@ -18,14 +18,14 @@ namespace Assets.UiTest.TestSteps
         protected override IEnumerator OnRun()
         {
             yield return Commands.WaitDialogCommand(Screens.Start.Content.StartScreen, false, new ResultData<WaitItemResult>());
-            // var trees = Cheats.FindTree();
-            // yield return Commands.PlayerMoveCommand(trees[0].transform.position, new ResultData<PlayerMoveResult>());
-            // yield return Commands.WaitForSecondsCommand(1, new ResultData<SimpleCommandResult>());
-            // for (int i = 0; i < 3; i++)
-            // {
-            //     yield return Commands.UseButtonClickCommand(Screens.Main.Button.Use, new ResultData<SimpleCommandResult>());
-            //     yield return Commands.WaitForSecondsCommand(1, new ResultData<SimpleCommandResult>());
-            // }
+            var trees = Cheats.FindTree();
+            yield return Commands.PlayerMoveCommand(trees[0].transform.position, new ResultData<PlayerMoveResult>());
+            yield return Commands.WaitForSecondsCommand(1, new ResultData<SimpleCommandResult>());
+            for (int i = 0; i < 3; i++)
+            {
+                yield return Commands.UseButtonClickCommand(Screens.Main.Button.Use, new ResultData<SimpleCommandResult>());
+                yield return Commands.WaitForSecondsCommand(1, new ResultData<SimpleCommandResult>());
+            }
         }
     }
 }
